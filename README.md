@@ -3,7 +3,7 @@
 - Sistemas de subscriber -> pub-sub -> array list com os tópicos que estão inscritos no outros -> arquivo txt
 - Sistemas de mensagem direta -> msgpack -> envia mensagem direta ao IP que deseja ser feito
 
-
+Linguagem: Python, C++, Java
 Só receberão notas os projetos que forem apresentados no último dia de aula e que tiverem tanto o repositório quanto o arquivo zip entregues no Moodle; <br>
 Não serão avaliados commits realizados após o prazo de entrega;<br>
 A divisão da pontuação usada para correção será:<br>
