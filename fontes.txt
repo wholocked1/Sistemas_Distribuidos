@@ -1,0 +1,9 @@
+Esse arquivo está quardando vídeos e textos q podem ajudar a fazer o projeto:
+
+//Docker
+https://www.youtube.com/watch?v=DQdB7wFEygo - The Only Docker Tutorial You Need To Get Started
+https://medium.com/@mjrod/deploying-a-python-application-to-docker-4478787c2add
+https://jfrog.com/devops-tools/article/understanding-and-building-docker-images/
+https://medium.com/@mjrod/deploying-a-python-application-to-docker-4478787c2add
+https://www.youtube.com/watch?v=pg19Z8LL06w - Docker Crash Course for Absolute Beginners [NEW]
+//

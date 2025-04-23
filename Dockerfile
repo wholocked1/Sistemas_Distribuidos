@@ -1,17 +1,11 @@
 FROM python:latest
 
-ADD servidor1.py .
+WORKDIR /server
 
-COPY . .
+COPY requirements.txt requirements.txt
 
-RUN set -xe \
-    && python3 -m venv env \
-    && source env/bin/activate \
-    && pip install \
-    && pip install -r requirements.txt
+RUN pip3 install -r requirements.txt
 
+COPY servidor1.py servidor1.py
 
-
-
-
-CMD [ "python", "./servidor1.py" ]
+CMD ["python"]
