@@ -6,4 +6,8 @@ https://medium.com/@mjrod/deploying-a-python-application-to-docker-4478787c2add
 https://jfrog.com/devops-tools/article/understanding-and-building-docker-images/
 https://medium.com/@mjrod/deploying-a-python-application-to-docker-4478787c2add
 https://www.youtube.com/watch?v=pg19Z8LL06w - Docker Crash Course for Absolute Beginners [NEW]
+
+Comandos:
+docker buildx build -t nomeImagem . #isso só aqui no codespace
+docker run nomeImagem #isso só aqui no codespace
 //

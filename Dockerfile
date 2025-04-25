@@ -1,11 +1,12 @@
-FROM python:latest
+FROM python:3.9-slim
 
 WORKDIR /server
 
 COPY requirements.txt requirements.txt
 
-RUN pip3 install -r requirements.txt
+RUN python -m pip install --upgrade pip
+RUN pip install --no-cache-dir -r requirements.txt
 
-COPY servidor1.py servidor1.py
+COPY testeDocker.py testeDocker.py
 
-CMD ["python"]
+CMD ["python", "testeDocker.py"]
