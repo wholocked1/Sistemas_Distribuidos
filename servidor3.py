@@ -16,7 +16,19 @@ rank = int(input("Qual o rank desse servidor:")) #recebe o rank dele
 nome = "servidor" + str(rank) + ".txt" #gera o nome do arquivo de log
 arq = open(nome, "w") #abre o arquivo de log
 inicio = time.time #pega o time inical
-arq.write("Servidor aberto " + time.asctime() + "\n") #coloca que o servidor foi aberto e o horário inicial
+arq.write("Servidor aberto (" + time.asctime() + ")\n") #coloca que o servidor foi aberto e o horário inicial
+arq_ip = open("ip", "w") #abre um arquivo que coloca os endereços de IP dos servidores
+ip = input('IP desse servidor:') #pede o input do número do servidor de forma manual para teste
+arq_ip.write(ip+"\n")#escreve no arquivo no número do IP do servidor
+arq_ip.close()
+arq.write("O IP desse servidor é: " + ip + " (" + time.asctime() +")\n") #escreve no log qual o IP do servidor
+#abre a conexão do msgpack por Request
+ctx = zmq.Context() 
+client = ctx.socket(zmq.REQ)
+porta = "tcp://localhost:" + ip
+client.connect(porta)
+arq.write("Comunicação via Msgpack aberta (" + time.asctime() + ")\n") #coloca no log que a comunicação foi aberta
+print("ok")
 
 
 # while True:
