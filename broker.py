@@ -12,21 +12,26 @@ import time
 # rank do Coordenador
 # tamanho de servidores
 
+#arquivo de log do broker
 nome = "broker.txt"
 arq = open(nome, "w")
 arq.write("Broker ativado com sucesso (" + time.asctime() + ")\n")
+#leitura do arquivo de IP dos servidores
 ip = open("ip", "r")
 ips = ip.readline()
 print(ips)
 ip.close()
+#conexão com o servidor por msgpack usando REP
 ctx = zmq.Context() 
 client = ctx.socket(zmq.REP)
 porta = "tcp://*:" + ips
 client.bind(porta)
-arq.write("Conexão com server 1 realizada por msgpack (" + time.asctime()+")\n")
+arq.write("Conexão com server 1 realizada por msgpack (" + time.asctime()+")\n") #escreve no log que a conexão ocorreu
+#recebe uma mensagem de pedido de hora do servidor
 msg_p = client.recv()
 msg = msgpack.unpackb(msg_p)
 print(f'Mensagem recebida: {msg}')
+#manda a mensagem para o servidor para colocar a hora certa
 ans = {"hora_atual": time.asctime(), "mensagem":"hora certa"}
 ans_p = msgpack.packb(ans)
 client.send(ans_p)

@@ -29,10 +29,12 @@ porta = "tcp://localhost:" + ip
 client.connect(porta)
 arq.write("Comunicação via Msgpack aberta (" + time.asctime() + ")\n") #coloca no log que a comunicação foi aberta
 print("ok")
+#envia mensagem para o broker para pedir a hora certa
 msg = {"mensagem": "quero hora", "timestamp": time.asctime()}
 msg_p = msgpack.packb(msg)
 client.send(msg_p)
 print('mensagem enviada')
+#recebe a mensagem de hora certa e mostra no console
 msg_p = client.recv()
 msg = msgpack.unpackb(msg_p)
 print(f'Mensagem recebida: {msg}')
