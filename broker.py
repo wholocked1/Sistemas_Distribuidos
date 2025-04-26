@@ -15,3 +15,19 @@ import time
 nome = "broker.txt"
 arq = open(nome, "w")
 arq.write("Broker ativado com sucesso (" + time.asctime() + ")\n")
+ip = open("ip", "r")
+ips = ip.readline()
+print(ips)
+ip.close()
+ctx = zmq.Context() 
+client = ctx.socket(zmq.REP)
+porta = "tcp://*:" + ips
+client.bind(porta)
+arq.write("Conexão com server 1 realizada por msgpack (" + time.asctime()+")\n")
+msg_p = client.recv()
+msg = msgpack.unpackb(msg_p)
+print(f'Mensagem recebida: {msg}')
+ans = {"hora_atual": time.asctime(), "mensagem":"hora certa"}
+ans_p = msgpack.packb(ans)
+client.send(ans_p)
+print('mensagem enviada')

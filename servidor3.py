@@ -19,7 +19,7 @@ inicio = time.time #pega o time inical
 arq.write("Servidor aberto (" + time.asctime() + ")\n") #coloca que o servidor foi aberto e o horário inicial
 arq_ip = open("ip", "w") #abre um arquivo que coloca os endereços de IP dos servidores
 ip = input('IP desse servidor:') #pede o input do número do servidor de forma manual para teste
-arq_ip.write(ip+"\n")#escreve no arquivo no número do IP do servidor
+arq_ip.write(ip)#escreve no arquivo no número do IP do servidor
 arq_ip.close()
 arq.write("O IP desse servidor é: " + ip + " (" + time.asctime() +")\n") #escreve no log qual o IP do servidor
 #abre a conexão do msgpack por Request
@@ -29,7 +29,13 @@ porta = "tcp://localhost:" + ip
 client.connect(porta)
 arq.write("Comunicação via Msgpack aberta (" + time.asctime() + ")\n") #coloca no log que a comunicação foi aberta
 print("ok")
-
+msg = {"mensagem": "quero hora", "timestamp": time.asctime()}
+msg_p = msgpack.packb(msg)
+client.send(msg_p)
+print('mensagem enviada')
+msg_p = client.recv()
+msg = msgpack.unpackb(msg_p)
+print(f'Mensagem recebida: {msg}')
 
 # while True:
 #     if(coordenador == False):
