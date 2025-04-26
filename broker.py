@@ -1,4 +1,6 @@
 import zmq
+import msgpack
+import time
 
 # precisa verificar a mensagem:
 # pegar todas os pedidos de tempo e passar para o servidor Coordenador
@@ -10,3 +12,6 @@ import zmq
 # rank do Coordenador
 # tamanho de servidores
 
+nome = "broker.txt"
+arq = open(nome, "w")
+arq.write("Broker ativado com sucesso (" + time.asctime() + ")\n")
