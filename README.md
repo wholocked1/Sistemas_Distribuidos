@@ -1,5 +1,10 @@
 # Sistemas Distribuidos
-
+Antes de executar qualquer um dos códigos, é importante que, no prompt de comando, realize o download das dependências que são usadas por esse projeto:<br>
+```
+pip install msgpack
+pip install zmq
+```
+<br>
 - Sistemas de subscriber -> pub-sub -> array list com os tópicos que estão inscritos no outros -> arquivo txt
 - Sistemas de mensagem direta -> msgpack -> envia mensagem direta ao IP que deseja ser feito
 
