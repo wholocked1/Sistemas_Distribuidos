@@ -1,2 +1,0 @@
-Broker ativado com sucesso (Sat Apr 26 16:46:39 2025)
-Conexão com server 1 realizada por msgpack (Sat Apr 26 16:46:39 2025)

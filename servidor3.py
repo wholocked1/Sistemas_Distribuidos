@@ -17,10 +17,16 @@ nome = "servidor" + str(rank) + ".txt" #gera o nome do arquivo de log
 arq = open(nome, "w") #abre o arquivo de log
 inicio = time.time #pega o time inical
 arq.write("Servidor aberto (" + time.asctime() + ")\n") #coloca que o servidor foi aberto e o horário inicial
-arq_ip = open("ip", "w") #abre um arquivo que coloca os endereços de IP dos servidores
-ip = input('IP desse servidor:') #pede o input do número do servidor de forma manual para teste
-arq_ip.write(ip)#escreve no arquivo no número do IP do servidor
-arq_ip.close()
+if(rank == 1):
+    arq_ip = open("ip", "w") #abre um arquivo que coloca os endereços de IP dos servidores
+    ip = input('IP desse servidor:') #pede o input do número do servidor de forma manual para teste
+    arq_ip.write(ip + " ")#escreve no arquivo no número do IP do servidor
+    arq_ip.close()
+else:
+    arq_ip = open("ip", "a") #abre um arquivo que coloca os endereços de IP dos servidores
+    ip = input('IP desse servidor:') #pede o input do número do servidor de forma manual para teste
+    arq_ip.write(ip + " ")#escreve no arquivo no número do IP do servidor
+    arq_ip.close()
 arq.write("O IP desse servidor é: " + ip + " (" + time.asctime() +")\n") #escreve no log qual o IP do servidor
 #abre a conexão do msgpack por Request
 ctx = zmq.Context() 
