@@ -1,3 +1,3 @@
-Servidor aberto (Sun Apr 27 17:11:11 2025)
-O IP desse servidor é: 5555 (Sun Apr 27 17:11:13 2025)
-Comunicação via Msgpack aberta (Sun Apr 27 17:11:13 2025)
+Servidor aberto (Tue May  6 23:03:27 2025)
+O IP desse servidor é: 5555(Tue May  6 23:03:27 2025)
+Comunicação via Msgpack aberta (Tue May  6 23:03:27 2025)

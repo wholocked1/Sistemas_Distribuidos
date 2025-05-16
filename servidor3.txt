@@ -1,3 +1,0 @@
-Servidor aberto (Sun Apr 27 17:11:18 2025)
-O IP desse servidor é: 5557 (Sun Apr 27 17:11:22 2025)
-Comunicação via Msgpack aberta (Sun Apr 27 17:11:22 2025)
