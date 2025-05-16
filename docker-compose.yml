@@ -1,5 +1,6 @@
 services:
   web:
-    build: .
+    build: 
+      dockerfile: dockerfile copy
     ports:
       - "8080:80"
