@@ -1,0 +1,214 @@
+[Wed May 21 00:11:27 2025] Server starting...
+[Wed May 21 00:11:27 2025] REP socket bound to tcp://*:5557
+[Wed May 21 00:11:27 2025] Connected to broker REQ socket at tcp://localhost:5559
+[Wed May 21 00:14:19 2025] Server starting...
+[Wed May 21 00:14:19 2025] REP socket bound to tcp://*:5557
+[Wed May 21 00:14:19 2025] Connected to broker REQ socket at tcp://localhost:5559
+[Wed May 21 00:14:19 2025] Received rank: 3, Coordinator: False
+[Wed May 21 00:14:19 2025] Connected to broker PUB socket at tcp://localhost:5558
+[Wed May 21 00:14:19 2025] Entering main loop
+[Wed May 21 00:14:20 2025] Status update - Local clock: 1747786459.379, Logical clock: 1, Known servers: set()
+[Wed May 21 00:14:21 2025] Status update - Local clock: 1747786459.379, Logical clock: 2, Known servers: set()
+[Wed May 21 00:14:22 2025] Status update - Local clock: 1747786459.379, Logical clock: 3, Known servers: set()
+[Wed May 21 00:14:23 2025] Status update - Local clock: 1747786459.379, Logical clock: 4, Known servers: set()
+[Wed May 21 00:14:24 2025] Status update - Local clock: 1747786459.379, Logical clock: 5, Known servers: set()
+[Wed May 21 00:14:25 2025] Status update - Local clock: 1747786459.379, Logical clock: 6, Known servers: set()
+[Wed May 21 00:14:26 2025] Status update - Local clock: 1747786459.379, Logical clock: 7, Known servers: set()
+[Wed May 21 00:14:27 2025] Status update - Local clock: 1747786459.379, Logical clock: 8, Known servers: set()
+[Wed May 21 00:14:27 2025] Request received: TIME_REQUEST
+[Wed May 21 00:14:27 2025] Sent local clock 1747786459.3788607
+[Wed May 21 00:14:27 2025] Status update - Local clock: 1747786459.379, Logical clock: 9, Known servers: set()
+[Wed May 21 00:14:27 2025] Request received: ADJUST_TIME 1747786453.504902
+[Wed May 21 00:14:27 2025] Clock adjusted by -5.8739588260650635, new local clock: 1747786453.504902
+[Wed May 21 00:14:27 2025] Status update - Local clock: 1747786453.505, Logical clock: 10, Known servers: set()
+[Wed May 21 00:14:28 2025] Status update - Local clock: 1747786453.505, Logical clock: 11, Known servers: set()
+[Wed May 21 00:14:29 2025] Status update - Local clock: 1747786453.505, Logical clock: 12, Known servers: set()
+[Wed May 21 00:14:31 2025] Status update - Local clock: 1747786453.505, Logical clock: 13, Known servers: set()
+[Wed May 21 00:14:32 2025] Status update - Local clock: 1747786453.505, Logical clock: 14, Known servers: set()
+[Wed May 21 00:14:33 2025] Status update - Local clock: 1747786453.505, Logical clock: 15, Known servers: set()
+[Wed May 21 00:14:34 2025] Status update - Local clock: 1747786453.505, Logical clock: 16, Known servers: set()
+[Wed May 21 00:14:35 2025] Status update - Local clock: 1747786453.505, Logical clock: 17, Known servers: set()
+[Wed May 21 00:14:36 2025] Status update - Local clock: 1747786453.505, Logical clock: 18, Known servers: set()
+[Wed May 21 00:14:37 2025] Status update - Local clock: 1747786453.505, Logical clock: 19, Known servers: set()
+[Wed May 21 00:14:37 2025] Request received: TIME_REQUEST
+[Wed May 21 00:14:38 2025] Sent local clock 1747786453.504902
+[Wed May 21 00:14:38 2025] Status update - Local clock: 1747786453.505, Logical clock: 20, Known servers: set()
+[Wed May 21 00:14:38 2025] Request received: ADJUST_TIME 1747786453.504902
+[Wed May 21 00:14:38 2025] Clock adjusted by 0.0, new local clock: 1747786453.504902
+[Wed May 21 00:14:38 2025] Status update - Local clock: 1747786453.505, Logical clock: 21, Known servers: set()
+[Wed May 21 00:14:39 2025] Status update - Local clock: 1747786453.505, Logical clock: 22, Known servers: set()
+[Wed May 21 00:14:40 2025] Status update - Local clock: 1747786453.505, Logical clock: 23, Known servers: set()
+[Wed May 21 00:14:41 2025] Status update - Local clock: 1747786453.505, Logical clock: 24, Known servers: set()
+[Wed May 21 00:14:42 2025] Status update - Local clock: 1747786453.505, Logical clock: 25, Known servers: set()
+[Wed May 21 00:14:43 2025] Status update - Local clock: 1747786453.505, Logical clock: 26, Known servers: set()
+[Wed May 21 00:14:44 2025] Status update - Local clock: 1747786453.505, Logical clock: 27, Known servers: set()
+[Wed May 21 00:14:45 2025] Status update - Local clock: 1747786453.505, Logical clock: 28, Known servers: set()
+[Wed May 21 00:14:46 2025] Status update - Local clock: 1747786453.505, Logical clock: 29, Known servers: set()
+[Wed May 21 00:14:47 2025] Status update - Local clock: 1747786453.505, Logical clock: 30, Known servers: set()
+[Wed May 21 00:14:48 2025] Request received: TIME_REQUEST
+[Wed May 21 00:14:48 2025] Sent local clock 1747786453.504902
+[Wed May 21 00:14:48 2025] Status update - Local clock: 1747786453.505, Logical clock: 31, Known servers: set()
+[Wed May 21 00:14:48 2025] Request received: ADJUST_TIME 1747786453.504902
+[Wed May 21 00:14:48 2025] Clock adjusted by 0.0, new local clock: 1747786453.504902
+[Wed May 21 00:14:48 2025] Status update - Local clock: 1747786453.505, Logical clock: 32, Known servers: set()
+[Wed May 21 00:14:49 2025] Status update - Local clock: 1747786453.505, Logical clock: 33, Known servers: set()
+[Wed May 21 00:14:50 2025] Status update - Local clock: 1747786453.505, Logical clock: 34, Known servers: set()
+[Wed May 21 00:14:51 2025] Status update - Local clock: 1747786453.505, Logical clock: 35, Known servers: set()
+[Wed May 21 00:14:52 2025] Status update - Local clock: 1747786453.505, Logical clock: 36, Known servers: set()
+[Wed May 21 00:15:13 2025] Server starting...
+[Wed May 21 00:15:13 2025] REP socket bound to tcp://*:5557
+[Wed May 21 00:15:13 2025] Connected to broker REQ socket at tcp://localhost:5559
+[Wed May 21 00:15:13 2025] Received rank: 3, Coordinator: False
+[Wed May 21 00:15:13 2025] Connected to broker PUB socket at tcp://localhost:5558
+[Wed May 21 00:15:13 2025] Entering main loop
+[Wed May 21 00:15:14 2025] Status update - Local clock: 1747786513.594, Logical clock: 1, Known servers: set()
+[Wed May 21 00:15:15 2025] Status update - Local clock: 1747786513.594, Logical clock: 2, Known servers: set()
+[Wed May 21 00:15:16 2025] Status update - Local clock: 1747786513.594, Logical clock: 3, Known servers: set()
+[Wed May 21 00:15:17 2025] Status update - Local clock: 1747786513.594, Logical clock: 4, Known servers: set()
+[Wed May 21 00:15:18 2025] Status update - Local clock: 1747786513.594, Logical clock: 5, Known servers: set()
+[Wed May 21 00:15:19 2025] Status update - Local clock: 1747786513.594, Logical clock: 6, Known servers: set()
+[Wed May 21 00:15:20 2025] Status update - Local clock: 1747786513.594, Logical clock: 7, Known servers: set()
+[Wed May 21 00:15:21 2025] Status update - Local clock: 1747786513.594, Logical clock: 8, Known servers: set()
+[Wed May 21 00:15:22 2025] Status update - Local clock: 1747786513.594, Logical clock: 9, Known servers: set()
+[Wed May 21 00:15:23 2025] Status update - Local clock: 1747786513.594, Logical clock: 10, Known servers: set()
+[Wed May 21 00:15:24 2025] Status update - Local clock: 1747786513.594, Logical clock: 11, Known servers: set()
+[Wed May 21 00:15:25 2025] Status update - Local clock: 1747786513.594, Logical clock: 12, Known servers: set()
+[Wed May 21 00:15:26 2025] Status update - Local clock: 1747786513.594, Logical clock: 13, Known servers: set()
+[Wed May 21 00:15:27 2025] Status update - Local clock: 1747786513.594, Logical clock: 14, Known servers: set()
+[Wed May 21 00:15:28 2025] Status update - Local clock: 1747786513.594, Logical clock: 15, Known servers: set()
+[Wed May 21 00:15:29 2025] Status update - Local clock: 1747786513.594, Logical clock: 16, Known servers: set()
+[Wed May 21 00:15:30 2025] Status update - Local clock: 1747786513.594, Logical clock: 17, Known servers: set()
+[Wed May 21 00:15:31 2025] Status update - Local clock: 1747786513.594, Logical clock: 18, Known servers: set()
+[Wed May 21 00:15:32 2025] Status update - Local clock: 1747786513.594, Logical clock: 19, Known servers: set()
+[Wed May 21 00:15:33 2025] Status update - Local clock: 1747786513.594, Logical clock: 20, Known servers: set()
+[Wed May 21 00:15:34 2025] Status update - Local clock: 1747786513.594, Logical clock: 21, Known servers: set()
+[Wed May 21 00:15:35 2025] Status update - Local clock: 1747786513.594, Logical clock: 22, Known servers: set()
+[Wed May 21 00:15:36 2025] Status update - Local clock: 1747786513.594, Logical clock: 23, Known servers: set()
+[Wed May 21 00:15:37 2025] Status update - Local clock: 1747786513.594, Logical clock: 24, Known servers: set()
+[Wed May 21 00:15:38 2025] Status update - Local clock: 1747786513.594, Logical clock: 25, Known servers: set()
+[Wed May 21 00:15:39 2025] Status update - Local clock: 1747786513.594, Logical clock: 26, Known servers: set()
+[Wed May 21 00:15:40 2025] Status update - Local clock: 1747786513.594, Logical clock: 27, Known servers: set()
+[Wed May 21 00:15:41 2025] Status update - Local clock: 1747786513.594, Logical clock: 28, Known servers: set()
+[Wed May 21 00:15:42 2025] Status update - Local clock: 1747786513.594, Logical clock: 29, Known servers: set()
+[Wed May 21 00:15:43 2025] Status update - Local clock: 1747786513.594, Logical clock: 30, Known servers: set()
+[Wed May 21 00:15:44 2025] Status update - Local clock: 1747786513.594, Logical clock: 31, Known servers: set()
+[Wed May 21 00:15:45 2025] Status update - Local clock: 1747786513.594, Logical clock: 32, Known servers: set()
+[Wed May 21 00:15:46 2025] Status update - Local clock: 1747786513.594, Logical clock: 33, Known servers: set()
+[Wed May 21 00:17:50 2025] Server starting...
+[Wed May 21 00:17:50 2025] REP socket bound to tcp://*:5557
+[Wed May 21 00:17:50 2025] Connected to broker REQ socket at tcp://localhost:5559
+[Wed May 21 00:17:50 2025] Received rank: 3, Coordinator: False
+[Wed May 21 00:17:50 2025] Connected to broker PUB socket at tcp://localhost:5558
+[Wed May 21 00:17:51 2025] Status - Local clock: 1747786670.017, Logical clock: 1, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:17:52 2025] Status - Local clock: 1747786670.017, Logical clock: 2, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:17:53 2025] Status - Local clock: 1747786670.017, Logical clock: 3, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:17:54 2025] Status - Local clock: 1747786670.017, Logical clock: 4, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:17:55 2025] Coordinator rank 1 not in known servers; starting election.
+[Wed May 21 00:17:55 2025] Election initiated: trying to find new coordinator.
+[Wed May 21 00:17:55 2025] No candidates found for coordinator election.
+[Wed May 21 00:17:55 2025] Status - Local clock: 1747786670.017, Logical clock: 5, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:17:56 2025] Status - Local clock: 1747786670.017, Logical clock: 6, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:17:57 2025] Status - Local clock: 1747786670.017, Logical clock: 7, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:17:58 2025] Status - Local clock: 1747786670.017, Logical clock: 8, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:17:59 2025] Status - Local clock: 1747786670.017, Logical clock: 9, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:18:00 2025] Coordinator rank 1 not in known servers; starting election.
+[Wed May 21 00:18:00 2025] Election initiated: trying to find new coordinator.
+[Wed May 21 00:18:00 2025] No candidates found for coordinator election.
+[Wed May 21 00:18:00 2025] Status - Local clock: 1747786670.017, Logical clock: 10, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:18:01 2025] Status - Local clock: 1747786670.017, Logical clock: 11, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:18:02 2025] Status - Local clock: 1747786670.017, Logical clock: 12, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:18:03 2025] Status - Local clock: 1747786670.017, Logical clock: 13, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:18:04 2025] Status - Local clock: 1747786670.017, Logical clock: 14, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:18:05 2025] Coordinator rank 1 not in known servers; starting election.
+[Wed May 21 00:18:05 2025] Election initiated: trying to find new coordinator.
+[Wed May 21 00:18:05 2025] No candidates found for coordinator election.
+[Wed May 21 00:18:05 2025] Status - Local clock: 1747786670.017, Logical clock: 15, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:18:06 2025] Status - Local clock: 1747786670.017, Logical clock: 16, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:18:07 2025] Status - Local clock: 1747786670.017, Logical clock: 17, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:18:08 2025] Status - Local clock: 1747786670.017, Logical clock: 18, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:18:09 2025] Status - Local clock: 1747786670.017, Logical clock: 19, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:18:10 2025] Coordinator rank 1 not in known servers; starting election.
+[Wed May 21 00:18:10 2025] Election initiated: trying to find new coordinator.
+[Wed May 21 00:18:10 2025] No candidates found for coordinator election.
+[Wed May 21 00:18:10 2025] Status - Local clock: 1747786670.017, Logical clock: 20, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:18:11 2025] Status - Local clock: 1747786670.017, Logical clock: 21, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:18:12 2025] Status - Local clock: 1747786670.017, Logical clock: 22, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:18:13 2025] Status - Local clock: 1747786670.017, Logical clock: 23, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:18:14 2025] Status - Local clock: 1747786670.017, Logical clock: 24, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:18:15 2025] Coordinator rank 1 not in known servers; starting election.
+[Wed May 21 00:18:15 2025] Election initiated: trying to find new coordinator.
+[Wed May 21 00:18:15 2025] No candidates found for coordinator election.
+[Wed May 21 00:18:15 2025] Status - Local clock: 1747786670.017, Logical clock: 25, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:23:31 2025] Server starting...
+[Wed May 21 00:23:31 2025] REP socket bound to tcp://*:5557
+[Wed May 21 00:23:31 2025] Connected to broker REQ socket at tcp://localhost:5559
+[Wed May 21 00:23:31 2025] Received rank: 3, Coordinator: False
+[Wed May 21 00:23:31 2025] Connected to broker PUB socket at tcp://localhost:5558
+[Wed May 21 00:23:32 2025] Status - Local clock: 1747787011.357, Logical clock: 1, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:23:33 2025] Status - Local clock: 1747787011.357, Logical clock: 2, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:23:34 2025] Status - Local clock: 1747787011.357, Logical clock: 3, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:23:35 2025] Status - Local clock: 1747787011.357, Logical clock: 4, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:23:36 2025] Coordinator rank 1 not in known servers; starting election.
+[Wed May 21 00:23:36 2025] Election initiated: trying to find new coordinator.
+[Wed May 21 00:23:36 2025] Status - Local clock: 1747787011.357, Logical clock: 5, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:23:37 2025] Status - Local clock: 1747787011.357, Logical clock: 6, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:23:38 2025] Status - Local clock: 1747787011.357, Logical clock: 7, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:23:39 2025] Status - Local clock: 1747787011.357, Logical clock: 8, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:23:40 2025] Status - Local clock: 1747787011.357, Logical clock: 9, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:23:41 2025] Status - Local clock: 1747787011.357, Logical clock: 10, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:23:42 2025] Status - Local clock: 1747787011.357, Logical clock: 11, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:23:43 2025] Status - Local clock: 1747787011.357, Logical clock: 12, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:23:44 2025] Status - Local clock: 1747787011.357, Logical clock: 13, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:23:45 2025] Status - Local clock: 1747787011.357, Logical clock: 14, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:23:46 2025] Status - Local clock: 1747787011.357, Logical clock: 15, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:23:47 2025] Status - Local clock: 1747787011.357, Logical clock: 16, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:23:48 2025] Status - Local clock: 1747787011.357, Logical clock: 17, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:23:49 2025] Status - Local clock: 1747787011.357, Logical clock: 18, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:23:50 2025] Status - Local clock: 1747787011.357, Logical clock: 19, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:23:51 2025] Status - Local clock: 1747787011.357, Logical clock: 20, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:23:52 2025] Status - Local clock: 1747787011.357, Logical clock: 21, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:23:53 2025] Status - Local clock: 1747787011.357, Logical clock: 22, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:23:54 2025] Status - Local clock: 1747787011.357, Logical clock: 23, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:23:55 2025] Status - Local clock: 1747787011.357, Logical clock: 24, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:23:56 2025] Status - Local clock: 1747787011.357, Logical clock: 25, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:23:57 2025] Status - Local clock: 1747787011.357, Logical clock: 26, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:23:58 2025] Status - Local clock: 1747787011.357, Logical clock: 27, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:23:59 2025] Status - Local clock: 1747787011.357, Logical clock: 28, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:24:00 2025] Status - Local clock: 1747787011.357, Logical clock: 29, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:24:01 2025] Status - Local clock: 1747787011.357, Logical clock: 30, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:24:02 2025] Status - Local clock: 1747787011.357, Logical clock: 31, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:24:03 2025] Status - Local clock: 1747787011.357, Logical clock: 32, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:24:04 2025] Status - Local clock: 1747787011.357, Logical clock: 33, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:24:05 2025] Status - Local clock: 1747787011.357, Logical clock: 34, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:24:06 2025] Status - Local clock: 1747787011.357, Logical clock: 35, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:25:56 2025] Server starting...
+[Wed May 21 00:25:56 2025] REP socket bound to tcp://*:5557
+[Wed May 21 00:25:56 2025] Connected to broker REQ socket at tcp://localhost:5559
+[Wed May 21 00:25:56 2025] Received rank: 3, Coordinator: False
+[Wed May 21 00:25:56 2025] Connected to broker PUB socket at tcp://localhost:5558
+[Wed May 21 00:25:57 2025] Status - Local clock: 1747787156.355, Logical clock: 1, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:25:58 2025] Status - Local clock: 1747787156.355, Logical clock: 2, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:25:59 2025] Status - Local clock: 1747787156.355, Logical clock: 3, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:26:00 2025] Status - Local clock: 1747787156.355, Logical clock: 4, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:26:01 2025] Coordinator rank 1 not in known servers; starting election.
+[Wed May 21 00:26:01 2025] Election initiated: trying to find new coordinator.
+[Wed May 21 00:26:01 2025] No candidates found for coordinator election.
+[Wed May 21 00:26:01 2025] Status - Local clock: 1747787156.355, Logical clock: 5, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:26:02 2025] Status - Local clock: 1747787156.355, Logical clock: 6, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:26:03 2025] Status - Local clock: 1747787156.355, Logical clock: 7, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:26:04 2025] Status - Local clock: 1747787156.355, Logical clock: 8, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:26:05 2025] Status - Local clock: 1747787156.355, Logical clock: 9, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:26:06 2025] Coordinator rank 1 not in known servers; starting election.
+[Wed May 21 00:26:06 2025] Election initiated: trying to find new coordinator.
+[Wed May 21 00:26:06 2025] No candidates found for coordinator election.
+[Wed May 21 00:26:06 2025] Status - Local clock: 1747787156.355, Logical clock: 10, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:26:07 2025] Status - Local clock: 1747787156.355, Logical clock: 11, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:26:08 2025] Status - Local clock: 1747787156.355, Logical clock: 12, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:26:09 2025] Status - Local clock: 1747787156.355, Logical clock: 13, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:26:10 2025] Status - Local clock: 1747787156.355, Logical clock: 14, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:26:11 2025] Coordinator rank 1 not in known servers; starting election.
+[Wed May 21 00:26:11 2025] Election initiated: trying to find new coordinator.
+[Wed May 21 00:26:11 2025] No candidates found for coordinator election.
+[Wed May 21 00:26:11 2025] Status - Local clock: 1747787156.355, Logical clock: 15, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:26:12 2025] Status - Local clock: 1747787156.355, Logical clock: 16, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
+[Wed May 21 00:26:13 2025] Status - Local clock: 1747787156.355, Logical clock: 17, Coordinator Rank: 1, Is Coordinator: False, Known servers: set()
