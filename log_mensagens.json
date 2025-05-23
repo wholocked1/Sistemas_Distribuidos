@@ -1,0 +1,8 @@
+[
+  {
+    "tipo": "enviar",
+    "origem": "cliente1",
+    "destino": "cliente2",
+    "mensagem": "sou o js"
+  }
+]

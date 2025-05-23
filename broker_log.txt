@@ -1,0 +1,141 @@
+[Wed May 21 00:14:02 2025] Broker started
+[Wed May 21 00:14:02 2025] PUB socket bound to tcp://*:5558
+[Wed May 21 00:14:02 2025] REP socket bound to tcp://*:5559
+[Wed May 21 00:14:07 2025] Received connection request from server port: 5555
+[Wed May 21 00:14:07 2025] Assigned rank 1 to server 5555
+[Wed May 21 00:14:07 2025] Published updated server list: ['5555']
+[Wed May 21 00:14:13 2025] Received connection request from server port: 5556
+[Wed May 21 00:14:13 2025] Assigned rank 2 to server 5556
+[Wed May 21 00:14:13 2025] Published updated server list: ['5555', '5556']
+[Wed May 21 00:14:19 2025] Received connection request from server port: 5557
+[Wed May 21 00:14:19 2025] Assigned rank 3 to server 5557
+[Wed May 21 00:14:19 2025] Published updated server list: ['5555', '5556', '5557']
+[Wed May 21 00:14:58 2025] Broker started
+[Wed May 21 00:14:58 2025] PUB socket bound to tcp://*:5558
+[Wed May 21 00:14:58 2025] REP socket bound to tcp://*:5559
+[Wed May 21 00:15:02 2025] Received connection request from server port: 5555
+[Wed May 21 00:15:02 2025] Assigned rank 1 to server 5555
+[Wed May 21 00:15:02 2025] Published updated server list: ['5555']
+[Wed May 21 00:15:09 2025] Received connection request from server port: 5556
+[Wed May 21 00:15:09 2025] Assigned rank 2 to server 5556
+[Wed May 21 00:15:09 2025] Published updated server list: ['5555', '5556']
+[Wed May 21 00:15:13 2025] Received connection request from server port: 5557
+[Wed May 21 00:15:13 2025] Assigned rank 3 to server 5557
+[Wed May 21 00:15:13 2025] Published updated server list: ['5555', '5556', '5557']
+[Wed May 21 00:17:35 2025] Broker started
+[Wed May 21 00:17:35 2025] PUB socket bound to tcp://*:5558
+[Wed May 21 00:17:35 2025] REP socket bound to tcp://*:5559
+[Wed May 21 00:17:40 2025] Received connection request from server port: 5555
+[Wed May 21 00:17:40 2025] Assigned rank 1 to server 5555
+[Wed May 21 00:17:40 2025] Published updated server list: ['5555']
+[Wed May 21 00:17:45 2025] Received connection request from server port: 5556
+[Wed May 21 00:17:45 2025] Assigned rank 2 to server 5556
+[Wed May 21 00:17:45 2025] Published updated server list: ['5555', '5556']
+[Wed May 21 00:17:50 2025] Received connection request from server port: 5557
+[Wed May 21 00:17:50 2025] Assigned rank 3 to server 5557
+[Wed May 21 00:17:50 2025] Published updated server list: ['5555', '5556', '5557']
+[Wed May 21 00:23:18 2025] Broker started
+[Wed May 21 00:23:18 2025] PUB socket bound to tcp://*:5558
+[Wed May 21 00:23:18 2025] REP socket bound to tcp://*:5559
+[Wed May 21 00:23:22 2025] Received connection request from server port: 5555
+[Wed May 21 00:23:22 2025] Assigned rank 1 to server 5555
+[Wed May 21 00:23:22 2025] Published updated server list: ['5555']
+[Wed May 21 00:23:26 2025] Received connection request from server port: 5556
+[Wed May 21 00:23:26 2025] Assigned rank 2 to server 5556
+[Wed May 21 00:23:26 2025] Published updated server list: ['5555', '5556']
+[Wed May 21 00:23:31 2025] Received connection request from server port: 5557
+[Wed May 21 00:23:31 2025] Assigned rank 3 to server 5557
+[Wed May 21 00:23:31 2025] Published updated server list: ['5555', '5556', '5557']
+[Wed May 21 00:25:42 2025] Broker started
+[Wed May 21 00:25:42 2025] PUB socket bound to tcp://*:5558
+[Wed May 21 00:25:42 2025] REP socket bound to tcp://*:5559
+[Wed May 21 00:25:47 2025] Received connection request from server port: 5555
+[Wed May 21 00:25:47 2025] Assigned rank 1 to server 5555
+[Wed May 21 00:25:47 2025] Published updated server list: ['5555']
+[Wed May 21 00:25:51 2025] Received connection request from server port: 5556
+[Wed May 21 00:25:51 2025] Assigned rank 2 to server 5556
+[Wed May 21 00:25:51 2025] Published updated server list: ['5555', '5556']
+[Wed May 21 00:25:56 2025] Received connection request from server port: 5557
+[Wed May 21 00:25:56 2025] Assigned rank 3 to server 5557
+[Wed May 21 00:25:56 2025] Published updated server list: ['5555', '5556', '5557']
+[Wed May 21 17:02:33 2025] Broker iniciado
+[Wed May 21 17:02:33 2025] PUB socket em tcp://*:5558
+[Wed May 21 17:02:33 2025] REP socket em tcp://*:5559
+[Wed May 21 17:02:51 2025] Pedido de conexão: 5555
+[Wed May 21 17:02:51 2025] Rank 1 para o Server 5555
+[Wed May 21 17:02:51 2025] Server list publicado: ['5555']
+[Wed May 21 17:02:56 2025] Pedido de conexão: 5556
+[Wed May 21 17:02:56 2025] Rank 2 para o Server 5556
+[Wed May 21 17:02:56 2025] Server list publicado: ['5555', '5556']
+[Wed May 21 17:03:03 2025] Pedido de conexão: 5557
+[Wed May 21 17:03:03 2025] Rank 3 para o Server 5557
+[Wed May 21 17:03:03 2025] Server list publicado: ['5555', '5556', '5557']
+[Wed May 21 17:06:32 2025] Broker iniciado
+[Wed May 21 17:06:32 2025] PUB socket em tcp://*:5558
+[Wed May 21 17:06:32 2025] REP socket em tcp://*:5559
+[Wed May 21 17:06:36 2025] Pedido de conexão: 5555
+[Wed May 21 17:06:36 2025] Rank 1 para o Server 5555
+[Wed May 21 17:06:36 2025] Server list publicado: ['5555']
+[Wed May 21 17:06:40 2025] Pedido de conexão: 5556
+[Wed May 21 17:06:40 2025] Rank 2 para o Server 5556
+[Wed May 21 17:06:40 2025] Server list publicado: ['5555', '5556']
+[Wed May 21 17:06:45 2025] Pedido de conexão: 5557
+[Wed May 21 17:06:45 2025] Rank 3 para o Server 5557
+[Wed May 21 17:06:45 2025] Server list publicado: ['5555', '5556', '5557']
+[Wed May 21 17:09:55 2025] Broker iniciado
+[Wed May 21 17:09:55 2025] PUB socket em tcp://*:5558
+[Wed May 21 17:09:55 2025] REP socket em tcp://*:5559
+[Wed May 21 17:09:59 2025] Pedido de conexão: 5555
+[Wed May 21 17:09:59 2025] Rank 1 para o Server 5555
+[Wed May 21 17:09:59 2025] Server list publicado: ['5555']
+[Wed May 21 17:10:03 2025] Pedido de conexão: 5556
+[Wed May 21 17:10:03 2025] Rank 2 para o Server 5556
+[Wed May 21 17:10:03 2025] Server list publicado: ['5555', '5556']
+[Wed May 21 17:10:20 2025] Pedido de conexão: 5556
+[Wed May 21 17:10:20 2025] Server 5556 reconectado com o rank 2
+[Wed May 21 17:10:20 2025] Server list publicado: ['5555', '5556']
+[Wed May 21 17:10:27 2025] Pedido de conexão: 5557
+[Wed May 21 17:10:27 2025] Rank 3 para o Server 5557
+[Wed May 21 17:10:27 2025] Server list publicado: ['5555', '5556', '5557']
+[Fri May 23 16:48:00 2025] Broker iniciado
+[Fri May 23 16:48:00 2025] PUB socket em tcp://*:5558
+[Fri May 23 16:48:00 2025] REP socket em tcp://*:5559
+[Fri May 23 16:48:06 2025] Pedido de conexão: 5555
+[Fri May 23 16:48:06 2025] Rank 1 para o Server 5555
+[Fri May 23 16:48:06 2025] Server list publicado: ['5555']
+[Fri May 23 16:48:12 2025] Pedido de conexão: 5556
+[Fri May 23 16:48:12 2025] Rank 2 para o Server 5556
+[Fri May 23 16:48:12 2025] Server list publicado: ['5555', '5556']
+[Fri May 23 16:48:22 2025] Pedido de conexão: 5557
+[Fri May 23 16:48:22 2025] Rank 3 para o Server 5557
+[Fri May 23 16:48:22 2025] Server list publicado: ['5555', '5556', '5557']
+[Fri May 23 16:49:04 2025] Broker iniciado
+[Fri May 23 16:49:04 2025] PUB socket em tcp://*:5558
+[Fri May 23 16:49:04 2025] REP socket em tcp://*:5559
+[Fri May 23 16:49:10 2025] Pedido de conexão: 5555
+[Fri May 23 16:49:10 2025] Rank 1 para o Server 5555
+[Fri May 23 16:49:10 2025] Server list publicado: ['5555']
+[Fri May 23 16:49:15 2025] Pedido de conexão: 5556
+[Fri May 23 16:49:15 2025] Rank 2 para o Server 5556
+[Fri May 23 16:49:15 2025] Server list publicado: ['5555', '5556']
+[Fri May 23 16:50:30 2025] Broker iniciado
+[Fri May 23 16:50:30 2025] PUB socket em tcp://*:5558
+[Fri May 23 16:50:30 2025] REP socket em tcp://*:5559
+[Fri May 23 16:50:34 2025] Pedido de conexão: 5555
+[Fri May 23 16:50:34 2025] Rank 1 para o Server 5555
+[Fri May 23 16:50:34 2025] Server list publicado: ['5555']
+[Fri May 23 16:50:38 2025] Pedido de conexão: 5556
+[Fri May 23 16:50:38 2025] Rank 2 para o Server 5556
+[Fri May 23 16:50:38 2025] Server list publicado: ['5555', '5556']
+[Fri May 23 16:52:52 2025] Broker iniciado
+[Fri May 23 16:52:52 2025] PUB socket em tcp://*:5558
+[Fri May 23 16:52:52 2025] REP socket em tcp://*:5559
+[Fri May 23 16:52:56 2025] Pedido de conexão: 5555
+[Fri May 23 16:52:56 2025] Rank 1 para o Server 5555
+[Fri May 23 16:52:56 2025] Server list publicado: ['5555']
+[Fri May 23 16:53:00 2025] Pedido de conexão: 5556
+[Fri May 23 16:53:00 2025] Rank 2 para o Server 5556
+[Fri May 23 16:53:00 2025] Server list publicado: ['5555', '5556']
+[Fri May 23 16:53:05 2025] Pedido de conexão: 5557
+[Fri May 23 16:53:05 2025] Rank 3 para o Server 5557
+[Fri May 23 16:53:05 2025] Server list publicado: ['5555', '5556', '5557']
