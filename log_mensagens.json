@@ -4,5 +4,16 @@
     "origem": "cliente1",
     "destino": "cliente2",
     "mensagem": "sou o js"
+  },
+  {
+    "tipo": "enviar",
+    "origem": "cliente2",
+    "destino": "cliente1",
+    "mensagem": "eu sou o python"
+  },
+  {
+    "tipo": "postar",
+    "origem": "cliente1",
+    "mensagem": "babyreborn2"
   }
 ]
