@@ -1,0 +1,23 @@
+{
+  "name": "sistemas_distribuidos",
+  "version": "1.0.0",
+  "description": "Antes de executar qualquer um dos códigos, é importante que, no prompt de comando, realize o download das dependências que são usadas por esse projeto:<br>\r ```\r pip install msgpack\r pip install zmq\r ```\r <br>\r - Sistemas de subscriber -> pub-sub -> array list com os tópicos que estão inscritos no outros -> arquivo txt\r - Sistemas de mensagem direta -> msgpack -> envia mensagem direta ao IP que deseja ser feito",
+  "main": "cliente1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wholocked1/Sistemas_Distribuidos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wholocked1/Sistemas_Distribuidos/issues"
+  },
+  "homepage": "https://github.com/wholocked1/Sistemas_Distribuidos#readme",
+  "dependencies": {
+    "@msgpack/msgpack": "^3.1.1"
+  }
+}
