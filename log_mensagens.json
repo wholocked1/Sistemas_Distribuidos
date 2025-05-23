@@ -27,5 +27,17 @@
     "origem": "cliente1",
     "destino": "",
     "mensagem": "aaaa"
+  },
+  {
+    "tipo": "postar",
+    "origem": "cliente1",
+    "destino": "",
+    "mensagem": "kkkkkkkkkkkkkk"
+  },
+  {
+    "tipo": "postar",
+    "origem": "cliente1",
+    "destino": "",
+    "mensagem": "ççççççççççççççççç"
   }
 ]

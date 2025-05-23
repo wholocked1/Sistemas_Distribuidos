@@ -5,7 +5,7 @@ import org.msgpack.core.MessagePack;
 import org.msgpack.core.MessageUnpacker;
 
 public class Client {
-    private static final String NOME_CLIENTE = "cliente2"; 
+    private static final String NOME_CLIENTE = "clienteJava"; 
     private static Socket socket;
 
     public static void main(String[] args) {

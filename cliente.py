@@ -1,7 +1,8 @@
 import socket
 import msgpack
 
-NOME_CLIENTE = "cliente1"  # Altere para "cliente2" no outro script
+
+NOME_CLIENTE = input("nome do cliente:")  # Altere para "cliente2" no outro script
 
 
 def publicar_mensagem():

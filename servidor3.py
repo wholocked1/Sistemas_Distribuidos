@@ -64,14 +64,17 @@ def handle_client(conn, addr):
             msg = msgpack.unpackb(data, raw=False)
             # Message processing
             if msg["tipo"] == "enviar" or msg["tipo"] == "postar":
-                mensagens.append(msg)
-                salvar_em_log(msg)
+                with coord_lock:  # Lock for thread safety
+                    mensagens.append(msg)
+                    salvar_em_log(msg)
                 conn.send(msgpack.packb({"status": "mensagem enviada!"}, use_bin_type=True))
             elif msg["tipo"] == "receber":
-                recebidas = [m for m in mensagens if m["destino"] == msg["destino"] and m["origem"] == msg["origem"]]
+                with coord_lock:  # Lock for thread safety
+                    recebidas = [m for m in mensagens if m["destino"] == msg["destino"] and m["origem"] == msg["origem"]]
                 conn.send(msgpack.packb({"mensagens": recebidas}, use_bin_type=True))
             elif msg["tipo"] == "vizualizar":
-                postagens = [m for m in mensagens if m["tipo"] == "postar" and m["origem"] == msg["origem"]]
+                with coord_lock:  # Lock for thread safety
+                    postagens = [m for m in mensagens if m["tipo"] == "postar" and m["origem"] == msg["origem"]]
                 conn.send(msgpack.packb({"mensagens": postagens}, use_bin_type=True))
         except Exception as e:
             print(f"[ERRO] {e}")
@@ -84,7 +87,7 @@ def start_message_server():
     mensagens = carregar_log()
 
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server.bind((HOST, 5560))
+    server.bind((HOST, 5560))  # Use the user-defined port
     server.listen()
     print("[SERVIDOR] Iniciado em", (HOST, 5560))
 
@@ -305,5 +308,3 @@ try:
 
 except KeyboardInterrupt:
     print("Servidor finalizado manualmente.")
-
-
