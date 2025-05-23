@@ -1,0 +1,28 @@
+services:
+  broker:
+    build: 
+      dockerfile: broker.dockerfile
+  
+  server1:
+    build:
+      dockerfile: server.dockerfile
+    depends_on:
+      - broker
+    ports:
+      -"5555:5555"
+  
+  server2:
+    build:
+      dockerfile: server.dockerfile
+    depends_on:
+      - broker
+    ports:
+      -"5556:5556"
+
+  server3:
+    build:
+      dockerfile: server.dockerfile
+    depends_on:
+      - broker
+    ports:
+      -"5557:5557"
