@@ -1,60 +1,57 @@
 import zmq
 import time
 
-def main():
-    # Inicializa o Log
-    log_filename = "broker_log.txt"
-    def log(msg):
-        timestamp = time.asctime()
-        line = f"[{timestamp}] {msg}"
-        print(line)
-        with open(log_filename, "a") as f:
-            f.write(line + "\n")
+# Initialize the Log
+log_filename = "broker_log.txt"
 
-    log("Broker iniciado")
+def log(msg):
+    timestamp = time.asctime()
+    line = f"[{timestamp}] {msg}"
+    print(line)
+    with open(log_filename, "a") as f:
+        f.write(line + "\n")
 
-    ctx = zmq.Context()
+log("Broker iniciado")
 
-    # PUB para enviar as informações de IP
-    pub = ctx.socket(zmq.PUB)
-    pub.bind("tcp://*:5558")
-    log("PUB socket em tcp://*:5558")
+ctx = zmq.Context()
 
-    # REP para mandar o rank
-    rep = ctx.socket(zmq.REP)
-    rep.bind("tcp://*:5559")
-    log("REP socket em tcp://*:5559")
+# PUB para enviar as informações de IP
+pub = ctx.socket(zmq.PUB)
+pub.bind("tcp://*:5558")
+log("PUB socket em tcp://*:5558")
 
-    connected_servers = []  # Lista de portas dos servidores
-    rank_map = {}  # Rank dos servidores
+# REP para mandar o rank
+rep = ctx.socket(zmq.REP)
+rep.bind("tcp://*:5559")
+log("REP socket em tcp://*:5559")
 
-    current_rank = 1
+connected_servers = []  # Lista de portas dos servidores
+rank_map = {}  # Rank dos servidores
 
-    poller = zmq.Poller()
-    poller.register(rep, zmq.POLLIN)
+current_rank = 1
 
-    while True:
-        socks = dict(poller.poll(timeout=1000))
-        if rep in socks and socks[rep] == zmq.POLLIN:
-            message = rep.recv_string()
-            log(f"Pedido de conexão: {message}")
+poller = zmq.Poller()
+poller.register(rep, zmq.POLLIN)
 
-            # Novo rank para o coordenador
-            if message not in rank_map:
-                rank_map[message] = current_rank
-                connected_servers.append(message)
-                log(f"Rank {current_rank} para o Server {message}")
-                current_rank += 1
-            else:
-                log(f"Server {message} reconectado com o rank {rank_map[message]}")
+while True:
+    socks = dict(poller.poll(timeout=1000))
+    if rep in socks and socks[rep] == zmq.POLLIN:
+        message = rep.recv_string()
+        log(f"Pedido de conexão: {message}")
 
-            # Envia o rank para o servidor
-            rep.send_string(str(rank_map[message]))
+        # Novo rank para o coordenador
+        if message not in rank_map:
+            rank_map[message] = current_rank
+            connected_servers.append(message)
+            log(f"Rank {current_rank} para o Server {message}")
+            current_rank += 1
+        else:
+            log(f"Server {message} reconectado com o rank {rank_map[message]}")
 
-            # Publica a lista de servidor
-            server_list_str = str(connected_servers)
-            pub.send_string(server_list_str)
-            log(f"Server list publicado: {server_list_str}")
+        # Envia o rank para o servidor
+        rep.send_string(str(rank_map[message]))
 
-if __name__ == "__main__":
-    main()
+        # Publica a lista de servidor
+        server_list_str = str(connected_servers)
+        pub.send_string(server_list_str)
+        log(f"Server list publicado: {server_list_str}")
