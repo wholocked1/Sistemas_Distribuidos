@@ -3569,3 +3569,8 @@
 [Fri May 23 16:53:27 2025] Status - Local: 1748019176.789, Lógico: 3042, Coordenador rank: 1, É coordenador: False, Servers conhecidos: set()
 [Fri May 23 16:53:28 2025] Status - Local: 1748019176.789, Lógico: 3043, Coordenador rank: 1, É coordenador: False, Servers conhecidos: set()
 [Fri May 23 16:53:29 2025] Status - Local: 1748019176.789, Lógico: 3044, Coordenador rank: 1, É coordenador: False, Servers conhecidos: set()
+[Fri May 23 22:25:10 2025] Ativando o server ...
+[Fri May 23 22:25:10 2025] REP socket em tcp://*:5557
+[Fri May 23 22:25:10 2025] Conectado no broker REQ em tcp://localhost:5559
+[Fri May 23 22:25:10 2025] Rank recebido: 2, Coordenador: False
+[Fri May 23 22:25:10 2025] Conectando no PUB do Broker em tcp://localhost:5558

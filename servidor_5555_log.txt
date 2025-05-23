@@ -2445,3 +2445,655 @@
 [Fri May 23 16:53:27 2025] Status - Local: 1748019176.789, Lógico: 2008, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5557', '5555', '5556'}
 [Fri May 23 16:53:28 2025] Status - Local: 1748019176.789, Lógico: 2009, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5557', '5555', '5556'}
 [Fri May 23 16:53:29 2025] Status - Local: 1748019176.789, Lógico: 2010, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5557', '5555', '5556'}
+[Fri May 23 22:17:29 2025] Ativando o server ...
+[Fri May 23 22:17:29 2025] REP socket em tcp://*:5555
+[Fri May 23 22:17:29 2025] Conectado no broker REQ em tcp://localhost:5559
+[Fri May 23 22:17:29 2025] Rank recebido: 1, Coordenador: True
+[Fri May 23 22:17:29 2025] Conectando no PUB do Broker em tcp://localhost:5558
+[Fri May 23 22:17:29 2025] Iniciando sincronização do coordenador
+[Fri May 23 22:18:47 2025] Ativando o server ...
+[Fri May 23 22:18:47 2025] REP socket em tcp://*:5555
+[Fri May 23 22:18:47 2025] Conectado no broker REQ em tcp://localhost:5559
+[Fri May 23 22:18:47 2025] Rank recebido: 1, Coordenador: True
+[Fri May 23 22:18:47 2025] Conectando no PUB do Broker em tcp://localhost:5558
+[Fri May 23 22:18:47 2025] Iniciando sincronização do coordenador
+[Fri May 23 22:18:57 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:19:07 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:19:17 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:19:27 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:19:37 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:19:47 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:19:57 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:20:07 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:20:17 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:20:27 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:20:37 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:20:47 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:20:57 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:21:07 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:21:17 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:21:27 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:21:37 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:21:47 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:21:57 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:22:07 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:22:17 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:22:27 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:22:37 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:22:47 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:22:57 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:23:07 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:23:17 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:23:27 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:23:37 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:23:47 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:23:57 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:24:07 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:24:17 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:24:56 2025] Ativando o server ...
+[Fri May 23 22:24:56 2025] REP socket em tcp://*:5555
+[Fri May 23 22:24:56 2025] Conectado no broker REQ em tcp://localhost:5559
+[Fri May 23 22:24:56 2025] Rank recebido: 1, Coordenador: True
+[Fri May 23 22:24:56 2025] Conectando no PUB do Broker em tcp://localhost:5558
+[Fri May 23 22:30:33 2025] REP socket em tcp://*:5555
+[Fri May 23 22:30:33 2025] Conectado no broker REQ em tcp://localhost:5559
+[Fri May 23 22:30:33 2025] Rank recebido: 1, Coordenador: True
+[Fri May 23 22:30:33 2025] Conectando no PUB do Broker em tcp://localhost:5558
+[Fri May 23 22:30:33 2025] Iniciando sincronização do coordenador
+[Fri May 23 22:32:11 2025] REP socket em tcp://*:5555
+[Fri May 23 22:32:11 2025] Conectado no broker REQ em tcp://localhost:5559
+[Fri May 23 22:32:11 2025] Rank recebido: 1, Coordenador: True
+[Fri May 23 22:32:11 2025] Conectando no PUB do Broker em tcp://localhost:5558
+[Fri May 23 22:32:11 2025] Iniciando sincronização do coordenador
+[Fri May 23 22:32:12 2025] Status - Local: 1748039531.503, Lógico: 1, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:32:13 2025] Status - Local: 1748039531.503, Lógico: 2, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:32:14 2025] Status - Local: 1748039531.503, Lógico: 3, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:32:15 2025] Status - Local: 1748039531.503, Lógico: 4, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:32:16 2025] Status - Local: 1748039531.503, Lógico: 5, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:32:17 2025] Status - Local: 1748039531.503, Lógico: 6, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:32:18 2025] Status - Local: 1748039531.503, Lógico: 7, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:32:19 2025] Lista recebida: {'5556', '5555'}
+[Fri May 23 22:32:19 2025] Status - Local: 1748039531.503, Lógico: 8, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:20 2025] Status - Local: 1748039531.503, Lógico: 9, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:21 2025] Status - Local: 1748039531.503, Lógico: 10, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:21 2025] Coordenador sincronizando com servers: {'5556', '5555'}
+[Fri May 23 22:32:21 2025] Horário recebido 1748039539.0868287 do servidor 5556
+[Fri May 23 22:32:21 2025] Tempo estimado calculado: 1748039535.294797
+[Fri May 23 22:32:21 2025] Ajustando 5556: ACK
+[Fri May 23 22:32:21 2025] Tempo interno ajustado 3.7920315265655518, agora 1748039535.294797
+[Fri May 23 22:32:21 2025] Incremento do relógio lógico 11
+[Fri May 23 22:32:22 2025] Status - Local: 1748039535.295, Lógico: 12, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:23 2025] Status - Local: 1748039535.295, Lógico: 13, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:24 2025] Status - Local: 1748039535.295, Lógico: 14, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:25 2025] Status - Local: 1748039535.295, Lógico: 15, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:26 2025] Status - Local: 1748039535.295, Lógico: 16, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:27 2025] Status - Local: 1748039535.295, Lógico: 17, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:28 2025] Status - Local: 1748039535.295, Lógico: 18, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:29 2025] Status - Local: 1748039535.295, Lógico: 19, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:30 2025] Status - Local: 1748039535.295, Lógico: 20, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:31 2025] Status - Local: 1748039535.295, Lógico: 21, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:31 2025] Coordenador sincronizando com servers: {'5556', '5555'}
+[Fri May 23 22:32:32 2025] Status - Local: 1748039535.295, Lógico: 22, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:33 2025] Status - Local: 1748039535.295, Lógico: 23, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:33 2025] Sem resposta do server 5556 por time out
+[Fri May 23 22:32:33 2025] Tempo estimado calculado: 1748039535.294797
+[Fri May 23 22:32:33 2025] Ajustando 5556: ACK
+[Fri May 23 22:32:33 2025] Tempo interno ajustado 0.0, agora 1748039535.294797
+[Fri May 23 22:32:33 2025] Incremento do relógio lógico 24
+[Fri May 23 22:32:34 2025] Status - Local: 1748039535.295, Lógico: 25, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:35 2025] Status - Local: 1748039535.295, Lógico: 26, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:36 2025] Status - Local: 1748039535.295, Lógico: 27, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:37 2025] Status - Local: 1748039535.295, Lógico: 28, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:38 2025] Status - Local: 1748039535.295, Lógico: 29, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:39 2025] Status - Local: 1748039535.295, Lógico: 30, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:40 2025] Status - Local: 1748039535.295, Lógico: 31, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:41 2025] Status - Local: 1748039535.295, Lógico: 32, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:42 2025] Status - Local: 1748039535.295, Lógico: 33, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:43 2025] Status - Local: 1748039535.295, Lógico: 34, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:43 2025] Coordenador sincronizando com servers: {'5556', '5555'}
+[Fri May 23 22:32:44 2025] Status - Local: 1748039535.295, Lógico: 35, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:45 2025] Status - Local: 1748039535.295, Lógico: 36, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:45 2025] Sem resposta do server 5556 por time out
+[Fri May 23 22:32:45 2025] Tempo estimado calculado: 1748039535.294797
+[Fri May 23 22:32:45 2025] Ajustando 5556: ACK
+[Fri May 23 22:32:45 2025] Tempo interno ajustado 0.0, agora 1748039535.294797
+[Fri May 23 22:32:45 2025] Incremento do relógio lógico 37
+[Fri May 23 22:32:46 2025] Status - Local: 1748039535.295, Lógico: 38, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:47 2025] Status - Local: 1748039535.295, Lógico: 39, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:48 2025] Status - Local: 1748039535.295, Lógico: 40, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:49 2025] Status - Local: 1748039535.295, Lógico: 41, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:50 2025] Status - Local: 1748039535.295, Lógico: 42, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:51 2025] Status - Local: 1748039535.295, Lógico: 43, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:52 2025] Status - Local: 1748039535.295, Lógico: 44, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:53 2025] Status - Local: 1748039535.295, Lógico: 45, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:54 2025] Status - Local: 1748039535.295, Lógico: 46, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:55 2025] Status - Local: 1748039535.295, Lógico: 47, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:55 2025] Coordenador sincronizando com servers: {'5556', '5555'}
+[Fri May 23 22:32:56 2025] Status - Local: 1748039535.295, Lógico: 48, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:57 2025] Status - Local: 1748039535.295, Lógico: 49, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:57 2025] Sem resposta do server 5556 por time out
+[Fri May 23 22:32:57 2025] Tempo estimado calculado: 1748039535.294797
+[Fri May 23 22:32:57 2025] Ajustando 5556: ACK
+[Fri May 23 22:32:57 2025] Tempo interno ajustado 0.0, agora 1748039535.294797
+[Fri May 23 22:32:57 2025] Incremento do relógio lógico 50
+[Fri May 23 22:32:58 2025] Status - Local: 1748039535.295, Lógico: 51, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:32:59 2025] Status - Local: 1748039535.295, Lógico: 52, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:00 2025] Status - Local: 1748039535.295, Lógico: 53, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:01 2025] Status - Local: 1748039535.295, Lógico: 54, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:02 2025] Status - Local: 1748039535.295, Lógico: 55, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:03 2025] Status - Local: 1748039535.295, Lógico: 56, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:04 2025] Status - Local: 1748039535.295, Lógico: 57, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:05 2025] Status - Local: 1748039535.295, Lógico: 58, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:06 2025] Status - Local: 1748039535.295, Lógico: 59, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:07 2025] Status - Local: 1748039535.295, Lógico: 60, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:07 2025] Coordenador sincronizando com servers: {'5556', '5555'}
+[Fri May 23 22:33:08 2025] Status - Local: 1748039535.295, Lógico: 61, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:09 2025] Status - Local: 1748039535.295, Lógico: 62, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:09 2025] Sem resposta do server 5556 por time out
+[Fri May 23 22:33:09 2025] Tempo estimado calculado: 1748039535.294797
+[Fri May 23 22:33:09 2025] Ajustando 5556: ACK
+[Fri May 23 22:33:09 2025] Tempo interno ajustado 0.0, agora 1748039535.294797
+[Fri May 23 22:33:09 2025] Incremento do relógio lógico 63
+[Fri May 23 22:33:10 2025] Status - Local: 1748039535.295, Lógico: 64, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:11 2025] Status - Local: 1748039535.295, Lógico: 65, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:12 2025] Status - Local: 1748039535.295, Lógico: 66, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:13 2025] Status - Local: 1748039535.295, Lógico: 67, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:14 2025] Status - Local: 1748039535.295, Lógico: 68, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:15 2025] Status - Local: 1748039535.295, Lógico: 69, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:16 2025] Status - Local: 1748039535.295, Lógico: 70, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:17 2025] Status - Local: 1748039535.295, Lógico: 71, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:18 2025] Status - Local: 1748039535.295, Lógico: 72, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:19 2025] Status - Local: 1748039535.295, Lógico: 73, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:19 2025] Coordenador sincronizando com servers: {'5556', '5555'}
+[Fri May 23 22:33:20 2025] Status - Local: 1748039535.295, Lógico: 74, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:21 2025] Status - Local: 1748039535.295, Lógico: 75, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:21 2025] Sem resposta do server 5556 por time out
+[Fri May 23 22:33:21 2025] Tempo estimado calculado: 1748039535.294797
+[Fri May 23 22:33:22 2025] Status - Local: 1748039535.295, Lógico: 76, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:23 2025] Status - Local: 1748039535.295, Lógico: 77, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:23 2025] Sem ACK em 5556 após ADJUST_TIME
+[Fri May 23 22:33:23 2025] Tempo interno ajustado 0.0, agora 1748039535.294797
+[Fri May 23 22:33:23 2025] Incremento do relógio lógico 78
+[Fri May 23 22:33:24 2025] Status - Local: 1748039535.295, Lógico: 79, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:25 2025] Status - Local: 1748039535.295, Lógico: 80, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:26 2025] Status - Local: 1748039535.295, Lógico: 81, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:27 2025] Status - Local: 1748039535.295, Lógico: 82, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:28 2025] Status - Local: 1748039535.295, Lógico: 83, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:29 2025] Status - Local: 1748039535.295, Lógico: 84, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:30 2025] Status - Local: 1748039535.295, Lógico: 85, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:31 2025] Status - Local: 1748039535.295, Lógico: 86, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:32 2025] Status - Local: 1748039535.295, Lógico: 87, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:33 2025] Status - Local: 1748039535.295, Lógico: 88, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:33 2025] Coordenador sincronizando com servers: {'5556', '5555'}
+[Fri May 23 22:33:34 2025] Status - Local: 1748039535.295, Lógico: 89, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:35 2025] Status - Local: 1748039535.295, Lógico: 90, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:35 2025] Sem resposta do server 5556 por time out
+[Fri May 23 22:33:35 2025] Tempo estimado calculado: 1748039535.294797
+[Fri May 23 22:33:36 2025] Status - Local: 1748039535.295, Lógico: 91, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:37 2025] Status - Local: 1748039535.295, Lógico: 92, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:37 2025] Sem ACK em 5556 após ADJUST_TIME
+[Fri May 23 22:33:37 2025] Tempo interno ajustado 0.0, agora 1748039535.294797
+[Fri May 23 22:33:37 2025] Incremento do relógio lógico 93
+[Fri May 23 22:33:38 2025] Status - Local: 1748039535.295, Lógico: 94, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:39 2025] Status - Local: 1748039535.295, Lógico: 95, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:40 2025] Status - Local: 1748039535.295, Lógico: 96, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:41 2025] Status - Local: 1748039535.295, Lógico: 97, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:42 2025] Status - Local: 1748039535.295, Lógico: 98, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:43 2025] Status - Local: 1748039535.295, Lógico: 99, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:44 2025] Status - Local: 1748039535.295, Lógico: 100, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:45 2025] Status - Local: 1748039535.295, Lógico: 101, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:46 2025] Status - Local: 1748039535.295, Lógico: 102, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:47 2025] Status - Local: 1748039535.295, Lógico: 103, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:47 2025] Coordenador sincronizando com servers: {'5556', '5555'}
+[Fri May 23 22:33:48 2025] Status - Local: 1748039535.295, Lógico: 104, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:49 2025] Status - Local: 1748039535.295, Lógico: 105, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:49 2025] Sem resposta do server 5556 por time out
+[Fri May 23 22:33:49 2025] Tempo estimado calculado: 1748039535.294797
+[Fri May 23 22:33:50 2025] Status - Local: 1748039535.295, Lógico: 106, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:51 2025] Status - Local: 1748039535.295, Lógico: 107, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:51 2025] Sem ACK em 5556 após ADJUST_TIME
+[Fri May 23 22:33:51 2025] Tempo interno ajustado 0.0, agora 1748039535.294797
+[Fri May 23 22:33:51 2025] Incremento do relógio lógico 108
+[Fri May 23 22:33:52 2025] Status - Local: 1748039535.295, Lógico: 109, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:53 2025] Status - Local: 1748039535.295, Lógico: 110, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:54 2025] Status - Local: 1748039535.295, Lógico: 111, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:55 2025] Status - Local: 1748039535.295, Lógico: 112, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:56 2025] Status - Local: 1748039535.295, Lógico: 113, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:57 2025] Status - Local: 1748039535.295, Lógico: 114, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:58 2025] Status - Local: 1748039535.295, Lógico: 115, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:33:59 2025] Status - Local: 1748039535.295, Lógico: 116, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:00 2025] Status - Local: 1748039535.295, Lógico: 117, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:01 2025] Status - Local: 1748039535.295, Lógico: 118, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:01 2025] Coordenador sincronizando com servers: {'5556', '5555'}
+[Fri May 23 22:34:02 2025] Status - Local: 1748039535.295, Lógico: 119, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:03 2025] Status - Local: 1748039535.295, Lógico: 120, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:03 2025] Sem resposta do server 5556 por time out
+[Fri May 23 22:34:03 2025] Tempo estimado calculado: 1748039535.294797
+[Fri May 23 22:34:04 2025] Status - Local: 1748039535.295, Lógico: 121, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:05 2025] Status - Local: 1748039535.295, Lógico: 122, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:05 2025] Sem ACK em 5556 após ADJUST_TIME
+[Fri May 23 22:34:05 2025] Tempo interno ajustado 0.0, agora 1748039535.294797
+[Fri May 23 22:34:05 2025] Incremento do relógio lógico 123
+[Fri May 23 22:34:06 2025] Status - Local: 1748039535.295, Lógico: 124, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:07 2025] Status - Local: 1748039535.295, Lógico: 125, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:08 2025] Status - Local: 1748039535.295, Lógico: 126, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:09 2025] Status - Local: 1748039535.295, Lógico: 127, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:10 2025] Status - Local: 1748039535.295, Lógico: 128, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:11 2025] Status - Local: 1748039535.295, Lógico: 129, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:12 2025] Status - Local: 1748039535.295, Lógico: 130, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:13 2025] Status - Local: 1748039535.295, Lógico: 131, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:14 2025] Status - Local: 1748039535.295, Lógico: 132, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:15 2025] Status - Local: 1748039535.295, Lógico: 133, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:15 2025] Coordenador sincronizando com servers: {'5556', '5555'}
+[Fri May 23 22:34:16 2025] Status - Local: 1748039535.295, Lógico: 134, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:17 2025] Status - Local: 1748039535.295, Lógico: 135, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:17 2025] Sem resposta do server 5556 por time out
+[Fri May 23 22:34:17 2025] Tempo estimado calculado: 1748039535.294797
+[Fri May 23 22:34:18 2025] Status - Local: 1748039535.295, Lógico: 136, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:19 2025] Status - Local: 1748039535.295, Lógico: 137, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:19 2025] Sem ACK em 5556 após ADJUST_TIME
+[Fri May 23 22:34:19 2025] Tempo interno ajustado 0.0, agora 1748039535.294797
+[Fri May 23 22:34:19 2025] Incremento do relógio lógico 138
+[Fri May 23 22:34:20 2025] Status - Local: 1748039535.295, Lógico: 139, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:21 2025] Status - Local: 1748039535.295, Lógico: 140, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:22 2025] Status - Local: 1748039535.295, Lógico: 141, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:23 2025] Status - Local: 1748039535.295, Lógico: 142, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:24 2025] Status - Local: 1748039535.295, Lógico: 143, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:25 2025] Status - Local: 1748039535.295, Lógico: 144, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:26 2025] Status - Local: 1748039535.295, Lógico: 145, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:27 2025] Status - Local: 1748039535.295, Lógico: 146, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:28 2025] Status - Local: 1748039535.295, Lógico: 147, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:29 2025] Status - Local: 1748039535.295, Lógico: 148, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:29 2025] Coordenador sincronizando com servers: {'5556', '5555'}
+[Fri May 23 22:34:30 2025] Status - Local: 1748039535.295, Lógico: 149, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:31 2025] Status - Local: 1748039535.295, Lógico: 150, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:31 2025] Sem resposta do server 5556 por time out
+[Fri May 23 22:34:31 2025] Tempo estimado calculado: 1748039535.294797
+[Fri May 23 22:34:32 2025] Status - Local: 1748039535.295, Lógico: 151, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:33 2025] Status - Local: 1748039535.295, Lógico: 152, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:33 2025] Sem ACK em 5556 após ADJUST_TIME
+[Fri May 23 22:34:33 2025] Tempo interno ajustado 0.0, agora 1748039535.294797
+[Fri May 23 22:34:33 2025] Incremento do relógio lógico 153
+[Fri May 23 22:34:34 2025] Status - Local: 1748039535.295, Lógico: 154, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:35 2025] Status - Local: 1748039535.295, Lógico: 155, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:36 2025] Status - Local: 1748039535.295, Lógico: 156, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:37 2025] Status - Local: 1748039535.295, Lógico: 157, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:38 2025] Status - Local: 1748039535.295, Lógico: 158, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:39 2025] Status - Local: 1748039535.295, Lógico: 159, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:40 2025] Status - Local: 1748039535.295, Lógico: 160, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:41 2025] Status - Local: 1748039535.295, Lógico: 161, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:42 2025] Status - Local: 1748039535.295, Lógico: 162, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:43 2025] Status - Local: 1748039535.295, Lógico: 163, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:43 2025] Coordenador sincronizando com servers: {'5556', '5555'}
+[Fri May 23 22:34:44 2025] Status - Local: 1748039535.295, Lógico: 164, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:45 2025] Status - Local: 1748039535.295, Lógico: 165, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:45 2025] Sem resposta do server 5556 por time out
+[Fri May 23 22:34:45 2025] Tempo estimado calculado: 1748039535.294797
+[Fri May 23 22:34:46 2025] Status - Local: 1748039535.295, Lógico: 166, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:47 2025] Status - Local: 1748039535.295, Lógico: 167, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:47 2025] Sem ACK em 5556 após ADJUST_TIME
+[Fri May 23 22:34:47 2025] Tempo interno ajustado 0.0, agora 1748039535.294797
+[Fri May 23 22:34:47 2025] Incremento do relógio lógico 168
+[Fri May 23 22:34:48 2025] Status - Local: 1748039535.295, Lógico: 169, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:49 2025] Status - Local: 1748039535.295, Lógico: 170, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:50 2025] Status - Local: 1748039535.295, Lógico: 171, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:51 2025] Status - Local: 1748039535.295, Lógico: 172, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:52 2025] Status - Local: 1748039535.295, Lógico: 173, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:53 2025] Status - Local: 1748039535.295, Lógico: 174, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:54 2025] Status - Local: 1748039535.295, Lógico: 175, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:55 2025] Status - Local: 1748039535.295, Lógico: 176, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:56 2025] Status - Local: 1748039535.295, Lógico: 177, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:57 2025] Status - Local: 1748039535.295, Lógico: 178, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:57 2025] Coordenador sincronizando com servers: {'5556', '5555'}
+[Fri May 23 22:34:58 2025] Status - Local: 1748039535.295, Lógico: 179, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:59 2025] Status - Local: 1748039535.295, Lógico: 180, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:34:59 2025] Sem resposta do server 5556 por time out
+[Fri May 23 22:34:59 2025] Tempo estimado calculado: 1748039535.294797
+[Fri May 23 22:35:00 2025] Status - Local: 1748039535.295, Lógico: 181, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:01 2025] Status - Local: 1748039535.295, Lógico: 182, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:01 2025] Sem ACK em 5556 após ADJUST_TIME
+[Fri May 23 22:35:01 2025] Tempo interno ajustado 0.0, agora 1748039535.294797
+[Fri May 23 22:35:01 2025] Incremento do relógio lógico 183
+[Fri May 23 22:35:02 2025] Status - Local: 1748039535.295, Lógico: 184, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:03 2025] Status - Local: 1748039535.295, Lógico: 185, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:04 2025] Status - Local: 1748039535.295, Lógico: 186, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:05 2025] Status - Local: 1748039535.295, Lógico: 187, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:06 2025] Status - Local: 1748039535.295, Lógico: 188, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:07 2025] Status - Local: 1748039535.295, Lógico: 189, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:08 2025] Status - Local: 1748039535.295, Lógico: 190, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:09 2025] Status - Local: 1748039535.295, Lógico: 191, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:10 2025] Status - Local: 1748039535.295, Lógico: 192, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:11 2025] Status - Local: 1748039535.295, Lógico: 193, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:11 2025] Coordenador sincronizando com servers: {'5556', '5555'}
+[Fri May 23 22:35:12 2025] Status - Local: 1748039535.295, Lógico: 194, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:13 2025] Status - Local: 1748039535.295, Lógico: 195, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:13 2025] Sem resposta do server 5556 por time out
+[Fri May 23 22:35:13 2025] Tempo estimado calculado: 1748039535.294797
+[Fri May 23 22:35:14 2025] Status - Local: 1748039535.295, Lógico: 196, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:15 2025] Status - Local: 1748039535.295, Lógico: 197, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:15 2025] Sem ACK em 5556 após ADJUST_TIME
+[Fri May 23 22:35:15 2025] Tempo interno ajustado 0.0, agora 1748039535.294797
+[Fri May 23 22:35:15 2025] Incremento do relógio lógico 198
+[Fri May 23 22:35:16 2025] Status - Local: 1748039535.295, Lógico: 199, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:17 2025] Status - Local: 1748039535.295, Lógico: 200, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:18 2025] Status - Local: 1748039535.295, Lógico: 201, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:19 2025] Status - Local: 1748039535.295, Lógico: 202, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:20 2025] Status - Local: 1748039535.295, Lógico: 203, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:21 2025] Status - Local: 1748039535.295, Lógico: 204, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:22 2025] Status - Local: 1748039535.295, Lógico: 205, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:23 2025] Status - Local: 1748039535.295, Lógico: 206, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:24 2025] Status - Local: 1748039535.295, Lógico: 207, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:25 2025] Status - Local: 1748039535.295, Lógico: 208, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:25 2025] Coordenador sincronizando com servers: {'5556', '5555'}
+[Fri May 23 22:35:26 2025] Status - Local: 1748039535.295, Lógico: 209, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:27 2025] Status - Local: 1748039535.295, Lógico: 210, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:27 2025] Sem resposta do server 5556 por time out
+[Fri May 23 22:35:27 2025] Tempo estimado calculado: 1748039535.294797
+[Fri May 23 22:35:28 2025] Status - Local: 1748039535.295, Lógico: 211, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:29 2025] Status - Local: 1748039535.295, Lógico: 212, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:29 2025] Sem ACK em 5556 após ADJUST_TIME
+[Fri May 23 22:35:29 2025] Tempo interno ajustado 0.0, agora 1748039535.294797
+[Fri May 23 22:35:29 2025] Incremento do relógio lógico 213
+[Fri May 23 22:35:30 2025] Status - Local: 1748039535.295, Lógico: 214, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:31 2025] Status - Local: 1748039535.295, Lógico: 215, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:32 2025] Lista recebida: {'5556', '5555'}
+[Fri May 23 22:35:32 2025] Status - Local: 1748039535.295, Lógico: 216, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:33 2025] Status - Local: 1748039535.295, Lógico: 217, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:34 2025] Status - Local: 1748039535.295, Lógico: 218, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:35 2025] Status - Local: 1748039535.295, Lógico: 219, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:36 2025] Status - Local: 1748039535.295, Lógico: 220, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:37 2025] Status - Local: 1748039535.295, Lógico: 221, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:38 2025] Status - Local: 1748039535.295, Lógico: 222, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:39 2025] Status - Local: 1748039535.295, Lógico: 223, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:39 2025] Coordenador sincronizando com servers: {'5556', '5555'}
+[Fri May 23 22:35:39 2025] Horário recebido 1748039732.221093 do servidor 5556
+[Fri May 23 22:35:39 2025] Tempo estimado calculado: 1748039633.757945
+[Fri May 23 22:35:40 2025] Status - Local: 1748039535.295, Lógico: 224, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:41 2025] Status - Local: 1748039535.295, Lógico: 225, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:41 2025] Sem ACK em 5556 após ADJUST_TIME
+[Fri May 23 22:35:41 2025] Tempo interno ajustado 98.46314811706543, agora 1748039633.757945
+[Fri May 23 22:35:41 2025] Incremento do relógio lógico 226
+[Fri May 23 22:35:42 2025] Status - Local: 1748039633.758, Lógico: 227, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:43 2025] Status - Local: 1748039633.758, Lógico: 228, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:44 2025] Status - Local: 1748039633.758, Lógico: 229, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:45 2025] Status - Local: 1748039633.758, Lógico: 230, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:46 2025] Status - Local: 1748039633.758, Lógico: 231, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:47 2025] Status - Local: 1748039633.758, Lógico: 232, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:48 2025] Status - Local: 1748039633.758, Lógico: 233, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:49 2025] Status - Local: 1748039633.758, Lógico: 234, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:50 2025] Status - Local: 1748039633.758, Lógico: 235, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:51 2025] Status - Local: 1748039633.758, Lógico: 236, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:51 2025] Coordenador sincronizando com servers: {'5556', '5555'}
+[Fri May 23 22:35:52 2025] Status - Local: 1748039633.758, Lógico: 237, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:53 2025] Status - Local: 1748039633.758, Lógico: 238, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:53 2025] Sem resposta do server 5556 por time out
+[Fri May 23 22:35:53 2025] Tempo estimado calculado: 1748039633.757945
+[Fri May 23 22:35:54 2025] Status - Local: 1748039633.758, Lógico: 239, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:55 2025] Status - Local: 1748039633.758, Lógico: 240, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:55 2025] Sem ACK em 5556 após ADJUST_TIME
+[Fri May 23 22:35:55 2025] Tempo interno ajustado 0.0, agora 1748039633.757945
+[Fri May 23 22:35:55 2025] Incremento do relógio lógico 241
+[Fri May 23 22:35:56 2025] Status - Local: 1748039633.758, Lógico: 242, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:57 2025] Status - Local: 1748039633.758, Lógico: 243, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:58 2025] Status - Local: 1748039633.758, Lógico: 244, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:35:59 2025] Status - Local: 1748039633.758, Lógico: 245, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:00 2025] Status - Local: 1748039633.758, Lógico: 246, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:01 2025] Status - Local: 1748039633.758, Lógico: 247, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:02 2025] Status - Local: 1748039633.758, Lógico: 248, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:03 2025] Status - Local: 1748039633.758, Lógico: 249, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:04 2025] Status - Local: 1748039633.758, Lógico: 250, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:05 2025] Status - Local: 1748039633.758, Lógico: 251, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:05 2025] Coordenador sincronizando com servers: {'5556', '5555'}
+[Fri May 23 22:36:06 2025] Status - Local: 1748039633.758, Lógico: 252, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:07 2025] Status - Local: 1748039633.758, Lógico: 253, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:07 2025] Sem resposta do server 5556 por time out
+[Fri May 23 22:36:07 2025] Tempo estimado calculado: 1748039633.757945
+[Fri May 23 22:36:08 2025] Status - Local: 1748039633.758, Lógico: 254, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:09 2025] Status - Local: 1748039633.758, Lógico: 255, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:09 2025] Sem ACK em 5556 após ADJUST_TIME
+[Fri May 23 22:36:09 2025] Tempo interno ajustado 0.0, agora 1748039633.757945
+[Fri May 23 22:36:09 2025] Incremento do relógio lógico 256
+[Fri May 23 22:36:10 2025] Status - Local: 1748039633.758, Lógico: 257, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:11 2025] Status - Local: 1748039633.758, Lógico: 258, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:12 2025] Status - Local: 1748039633.758, Lógico: 259, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:13 2025] Status - Local: 1748039633.758, Lógico: 260, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:14 2025] Status - Local: 1748039633.758, Lógico: 261, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:15 2025] Status - Local: 1748039633.758, Lógico: 262, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:16 2025] Status - Local: 1748039633.758, Lógico: 263, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:17 2025] Status - Local: 1748039633.758, Lógico: 264, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:18 2025] Status - Local: 1748039633.758, Lógico: 265, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:19 2025] Status - Local: 1748039633.758, Lógico: 266, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:19 2025] Coordenador sincronizando com servers: {'5556', '5555'}
+[Fri May 23 22:36:20 2025] Status - Local: 1748039633.758, Lógico: 267, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:21 2025] Status - Local: 1748039633.758, Lógico: 268, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:21 2025] Sem resposta do server 5556 por time out
+[Fri May 23 22:36:21 2025] Tempo estimado calculado: 1748039633.757945
+[Fri May 23 22:36:22 2025] Status - Local: 1748039633.758, Lógico: 269, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:23 2025] Status - Local: 1748039633.758, Lógico: 270, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:23 2025] Sem ACK em 5556 após ADJUST_TIME
+[Fri May 23 22:36:23 2025] Tempo interno ajustado 0.0, agora 1748039633.757945
+[Fri May 23 22:36:23 2025] Incremento do relógio lógico 271
+[Fri May 23 22:36:24 2025] Status - Local: 1748039633.758, Lógico: 272, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:25 2025] Status - Local: 1748039633.758, Lógico: 273, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:26 2025] Status - Local: 1748039633.758, Lógico: 274, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:27 2025] Status - Local: 1748039633.758, Lógico: 275, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:28 2025] Status - Local: 1748039633.758, Lógico: 276, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:29 2025] Status - Local: 1748039633.758, Lógico: 277, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:30 2025] Status - Local: 1748039633.758, Lógico: 278, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:31 2025] Status - Local: 1748039633.758, Lógico: 279, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:32 2025] Status - Local: 1748039633.758, Lógico: 280, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:33 2025] Status - Local: 1748039633.758, Lógico: 281, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:33 2025] Coordenador sincronizando com servers: {'5556', '5555'}
+[Fri May 23 22:36:34 2025] Status - Local: 1748039633.758, Lógico: 282, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:35 2025] Status - Local: 1748039633.758, Lógico: 283, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:35 2025] Sem resposta do server 5556 por time out
+[Fri May 23 22:36:35 2025] Tempo estimado calculado: 1748039633.757945
+[Fri May 23 22:36:36 2025] Status - Local: 1748039633.758, Lógico: 284, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:37 2025] Status - Local: 1748039633.758, Lógico: 285, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:37 2025] Sem ACK em 5556 após ADJUST_TIME
+[Fri May 23 22:36:37 2025] Tempo interno ajustado 0.0, agora 1748039633.757945
+[Fri May 23 22:36:37 2025] Incremento do relógio lógico 286
+[Fri May 23 22:36:38 2025] Status - Local: 1748039633.758, Lógico: 287, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:39 2025] Status - Local: 1748039633.758, Lógico: 288, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:40 2025] Status - Local: 1748039633.758, Lógico: 289, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:41 2025] Status - Local: 1748039633.758, Lógico: 290, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:36:42 2025] Status - Local: 1748039633.758, Lógico: 291, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5556', '5555'}
+[Fri May 23 22:41:25 2025] REP socket em tcp://*:5555
+[Fri May 23 22:41:25 2025] Conectado no broker REQ em tcp://localhost:5559
+[Fri May 23 22:41:25 2025] Rank recebido: 2, Coordenador: False
+[Fri May 23 22:41:25 2025] Conectando no PUB do Broker em tcp://localhost:5558
+[Fri May 23 22:41:26 2025] Status - Local: 1748040085.353, Lógico: 1, Coordenador rank: 1, É coordenador: False, Servers conhecidos: set()
+[Fri May 23 22:41:27 2025] Status - Local: 1748040085.353, Lógico: 2, Coordenador rank: 1, É coordenador: False, Servers conhecidos: set()
+[Fri May 23 22:41:28 2025] Status - Local: 1748040085.353, Lógico: 3, Coordenador rank: 1, É coordenador: False, Servers conhecidos: set()
+[Fri May 23 22:41:29 2025] Status - Local: 1748040085.353, Lógico: 4, Coordenador rank: 1, É coordenador: False, Servers conhecidos: set()
+[Fri May 23 22:41:30 2025] Coordenador rank 1 fora da lista. Iniciando eleição.
+[Fri May 23 22:41:30 2025] Eleição iniciada. Encontrando novo coordenador
+[Fri May 23 22:41:30 2025] Candidatos a eleição: []
+[Fri May 23 22:41:30 2025] Sem candidatos para eleição
+[Fri May 23 22:41:30 2025] Status - Local: 1748040085.353, Lógico: 5, Coordenador rank: 1, É coordenador: False, Servers conhecidos: set()
+[Fri May 23 22:41:42 2025] REP socket em tcp://*:5555
+[Fri May 23 22:41:42 2025] Conectado no broker REQ em tcp://localhost:5559
+[Fri May 23 22:41:42 2025] Rank recebido: 1, Coordenador: True
+[Fri May 23 22:41:42 2025] Conectando no PUB do Broker em tcp://localhost:5558
+[Fri May 23 22:41:42 2025] Iniciando sincronização do coordenador
+[Fri May 23 22:41:43 2025] Status - Local: 1748040102.380, Lógico: 1, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:41:44 2025] Status - Local: 1748040102.380, Lógico: 2, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:41:45 2025] Status - Local: 1748040102.380, Lógico: 3, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:41:46 2025] Status - Local: 1748040102.380, Lógico: 4, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:41:47 2025] Status - Local: 1748040102.380, Lógico: 5, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:41:48 2025] Status - Local: 1748040102.380, Lógico: 6, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:41:49 2025] Status - Local: 1748040102.380, Lógico: 7, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:41:50 2025] Status - Local: 1748040102.380, Lógico: 8, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:41:51 2025] Status - Local: 1748040102.380, Lógico: 9, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:41:52 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:41:52 2025] Status - Local: 1748040102.380, Lógico: 10, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:41:53 2025] Status - Local: 1748040102.380, Lógico: 11, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:41:54 2025] Status - Local: 1748040102.380, Lógico: 12, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:41:55 2025] Status - Local: 1748040102.380, Lógico: 13, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:41:56 2025] Status - Local: 1748040102.380, Lógico: 14, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:41:57 2025] Status - Local: 1748040102.380, Lógico: 15, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:41:58 2025] Status - Local: 1748040102.380, Lógico: 16, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:41:59 2025] Status - Local: 1748040102.380, Lógico: 17, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:00 2025] Status - Local: 1748040102.380, Lógico: 18, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:01 2025] Status - Local: 1748040102.380, Lógico: 19, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:02 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:42:02 2025] Status - Local: 1748040102.380, Lógico: 20, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:03 2025] Status - Local: 1748040102.380, Lógico: 21, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:04 2025] Status - Local: 1748040102.380, Lógico: 22, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:05 2025] Status - Local: 1748040102.380, Lógico: 23, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:06 2025] Status - Local: 1748040102.380, Lógico: 24, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:07 2025] Status - Local: 1748040102.380, Lógico: 25, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:08 2025] Status - Local: 1748040102.380, Lógico: 26, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:09 2025] Status - Local: 1748040102.380, Lógico: 27, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:10 2025] Status - Local: 1748040102.380, Lógico: 28, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:11 2025] Status - Local: 1748040102.380, Lógico: 29, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:12 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:42:12 2025] Status - Local: 1748040102.380, Lógico: 30, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:13 2025] Status - Local: 1748040102.380, Lógico: 31, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:14 2025] Status - Local: 1748040102.380, Lógico: 32, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:15 2025] Status - Local: 1748040102.380, Lógico: 33, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:16 2025] Status - Local: 1748040102.380, Lógico: 34, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:17 2025] Status - Local: 1748040102.380, Lógico: 35, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:18 2025] Status - Local: 1748040102.380, Lógico: 36, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:19 2025] Status - Local: 1748040102.380, Lógico: 37, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:20 2025] Status - Local: 1748040102.380, Lógico: 38, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:21 2025] Status - Local: 1748040102.380, Lógico: 39, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:22 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:42:22 2025] Status - Local: 1748040102.380, Lógico: 40, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:23 2025] Status - Local: 1748040102.380, Lógico: 41, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:24 2025] Status - Local: 1748040102.380, Lógico: 42, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:25 2025] Status - Local: 1748040102.380, Lógico: 43, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:26 2025] Status - Local: 1748040102.380, Lógico: 44, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:27 2025] Status - Local: 1748040102.380, Lógico: 45, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:28 2025] Status - Local: 1748040102.380, Lógico: 46, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:29 2025] Status - Local: 1748040102.380, Lógico: 47, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:30 2025] Status - Local: 1748040102.380, Lógico: 48, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:31 2025] Status - Local: 1748040102.380, Lógico: 49, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:32 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:42:32 2025] Status - Local: 1748040102.380, Lógico: 50, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:33 2025] Status - Local: 1748040102.380, Lógico: 51, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:34 2025] Status - Local: 1748040102.380, Lógico: 52, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:35 2025] Status - Local: 1748040102.380, Lógico: 53, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:36 2025] Status - Local: 1748040102.380, Lógico: 54, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:37 2025] Status - Local: 1748040102.380, Lógico: 55, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:38 2025] Status - Local: 1748040102.380, Lógico: 56, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:39 2025] Status - Local: 1748040102.380, Lógico: 57, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:40 2025] Status - Local: 1748040102.380, Lógico: 58, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:41 2025] Status - Local: 1748040102.380, Lógico: 59, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:42 2025] Nenhum servidor conhecido para sincronizar
+[Fri May 23 22:42:42 2025] Status - Local: 1748040102.380, Lógico: 60, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:43 2025] Status - Local: 1748040102.380, Lógico: 61, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:44 2025] Status - Local: 1748040102.380, Lógico: 62, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:45 2025] Status - Local: 1748040102.380, Lógico: 63, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:46 2025] Status - Local: 1748040102.380, Lógico: 64, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:47 2025] Status - Local: 1748040102.380, Lógico: 65, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:48 2025] Status - Local: 1748040102.380, Lógico: 66, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:49 2025] Status - Local: 1748040102.380, Lógico: 67, Coordenador rank: 1, É coordenador: True, Servers conhecidos: set()
+[Fri May 23 22:42:49 2025] Lista recebida: {'5555', '5556'}
+[Fri May 23 22:42:49 2025] Status - Local: 1748040102.380, Lógico: 68, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:42:50 2025] Status - Local: 1748040102.380, Lógico: 69, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:42:51 2025] Status - Local: 1748040102.380, Lógico: 70, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:42:52 2025] Coordenador sincronizando com servers: {'5555', '5556'}
+[Fri May 23 22:42:52 2025] Horário recebido 1748040169.617089 do servidor 5556
+[Fri May 23 22:42:52 2025] Tempo estimado calculado: 1748040135.9984105
+[Fri May 23 22:42:52 2025] Tempo interno ajustado 33.6186785697937, agora 1748040135.9984105
+[Fri May 23 22:42:52 2025] Status - Local: 1748040135.998, Lógico: 71, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:42:53 2025] Status - Local: 1748040135.998, Lógico: 72, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:42:54 2025] Sem ACK em 5556 após ADJUST_TIME
+[Fri May 23 22:42:54 2025] Incremento do relógio lógico 73
+[Fri May 23 22:42:54 2025] Status - Local: 1748040135.998, Lógico: 74, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:42:55 2025] Status - Local: 1748040135.998, Lógico: 75, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:42:56 2025] Status - Local: 1748040135.998, Lógico: 76, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:42:57 2025] Status - Local: 1748040135.998, Lógico: 77, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:42:58 2025] Status - Local: 1748040135.998, Lógico: 78, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:42:59 2025] Status - Local: 1748040135.998, Lógico: 79, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:00 2025] Status - Local: 1748040135.998, Lógico: 80, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:01 2025] Status - Local: 1748040135.998, Lógico: 81, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:02 2025] Status - Local: 1748040135.998, Lógico: 82, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:03 2025] Status - Local: 1748040135.998, Lógico: 83, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:04 2025] Coordenador sincronizando com servers: {'5555', '5556'}
+[Fri May 23 22:43:04 2025] Status - Local: 1748040135.998, Lógico: 84, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:05 2025] Status - Local: 1748040135.998, Lógico: 85, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:06 2025] Sem resposta do server 5556 por time out
+[Fri May 23 22:43:06 2025] Tempo estimado calculado: 1748040135.9984105
+[Fri May 23 22:43:06 2025] Tempo interno ajustado 0.0, agora 1748040135.9984105
+[Fri May 23 22:43:06 2025] Status - Local: 1748040135.998, Lógico: 86, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:07 2025] Status - Local: 1748040135.998, Lógico: 87, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:08 2025] Sem ACK em 5556 após ADJUST_TIME
+[Fri May 23 22:43:08 2025] Incremento do relógio lógico 88
+[Fri May 23 22:43:08 2025] Status - Local: 1748040135.998, Lógico: 89, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:09 2025] Status - Local: 1748040135.998, Lógico: 90, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:10 2025] Status - Local: 1748040135.998, Lógico: 91, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:11 2025] Status - Local: 1748040135.998, Lógico: 92, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:12 2025] Status - Local: 1748040135.998, Lógico: 93, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:13 2025] Status - Local: 1748040135.998, Lógico: 94, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:14 2025] Status - Local: 1748040135.998, Lógico: 95, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:15 2025] Status - Local: 1748040135.998, Lógico: 96, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:16 2025] Status - Local: 1748040135.998, Lógico: 97, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:17 2025] Status - Local: 1748040135.998, Lógico: 98, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:18 2025] Coordenador sincronizando com servers: {'5555', '5556'}
+[Fri May 23 22:43:18 2025] Status - Local: 1748040135.998, Lógico: 99, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:19 2025] Status - Local: 1748040135.998, Lógico: 100, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:20 2025] Sem resposta do server 5556 por time out
+[Fri May 23 22:43:20 2025] Tempo estimado calculado: 1748040135.9984105
+[Fri May 23 22:43:20 2025] Tempo interno ajustado 0.0, agora 1748040135.9984105
+[Fri May 23 22:43:20 2025] Status - Local: 1748040135.998, Lógico: 101, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:21 2025] Status - Local: 1748040135.998, Lógico: 102, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:22 2025] Sem ACK em 5556 após ADJUST_TIME
+[Fri May 23 22:43:22 2025] Incremento do relógio lógico 103
+[Fri May 23 22:43:22 2025] Status - Local: 1748040135.998, Lógico: 104, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:23 2025] Status - Local: 1748040135.998, Lógico: 105, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:24 2025] Status - Local: 1748040135.998, Lógico: 106, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:25 2025] Status - Local: 1748040135.998, Lógico: 107, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:26 2025] Status - Local: 1748040135.998, Lógico: 108, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:27 2025] Status - Local: 1748040135.998, Lógico: 109, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:28 2025] Status - Local: 1748040135.998, Lógico: 110, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:29 2025] Status - Local: 1748040135.998, Lógico: 111, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:30 2025] Status - Local: 1748040135.998, Lógico: 112, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:31 2025] Status - Local: 1748040135.998, Lógico: 113, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:32 2025] Coordenador sincronizando com servers: {'5555', '5556'}
+[Fri May 23 22:43:32 2025] Status - Local: 1748040135.998, Lógico: 114, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:33 2025] Status - Local: 1748040135.998, Lógico: 115, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:34 2025] Sem resposta do server 5556 por time out
+[Fri May 23 22:43:34 2025] Tempo estimado calculado: 1748040135.9984105
+[Fri May 23 22:43:34 2025] Tempo interno ajustado 0.0, agora 1748040135.9984105
+[Fri May 23 22:43:34 2025] Status - Local: 1748040135.998, Lógico: 116, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:35 2025] Status - Local: 1748040135.998, Lógico: 117, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:36 2025] Sem ACK em 5556 após ADJUST_TIME
+[Fri May 23 22:43:36 2025] Incremento do relógio lógico 118
+[Fri May 23 22:43:36 2025] Status - Local: 1748040135.998, Lógico: 119, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:37 2025] Status - Local: 1748040135.998, Lógico: 120, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:38 2025] Status - Local: 1748040135.998, Lógico: 121, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:39 2025] Status - Local: 1748040135.998, Lógico: 122, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:40 2025] Status - Local: 1748040135.998, Lógico: 123, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:41 2025] Status - Local: 1748040135.998, Lógico: 124, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:42 2025] Status - Local: 1748040135.998, Lógico: 125, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:43 2025] Status - Local: 1748040135.998, Lógico: 126, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:44 2025] Status - Local: 1748040135.998, Lógico: 127, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:45 2025] Status - Local: 1748040135.998, Lógico: 128, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:46 2025] Coordenador sincronizando com servers: {'5555', '5556'}
+[Fri May 23 22:43:46 2025] Status - Local: 1748040135.998, Lógico: 129, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:47 2025] Status - Local: 1748040135.998, Lógico: 130, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:48 2025] Sem resposta do server 5556 por time out
+[Fri May 23 22:43:48 2025] Tempo estimado calculado: 1748040135.9984105
+[Fri May 23 22:43:48 2025] Tempo interno ajustado 0.0, agora 1748040135.9984105
+[Fri May 23 22:43:48 2025] Status - Local: 1748040135.998, Lógico: 131, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:49 2025] Status - Local: 1748040135.998, Lógico: 132, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:50 2025] Sem ACK em 5556 após ADJUST_TIME
+[Fri May 23 22:43:50 2025] Incremento do relógio lógico 133
+[Fri May 23 22:43:50 2025] Status - Local: 1748040135.998, Lógico: 134, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:51 2025] Status - Local: 1748040135.998, Lógico: 135, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:52 2025] Status - Local: 1748040135.998, Lógico: 136, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:53 2025] Status - Local: 1748040135.998, Lógico: 137, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:54 2025] Status - Local: 1748040135.998, Lógico: 138, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:55 2025] Status - Local: 1748040135.998, Lógico: 139, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:56 2025] Status - Local: 1748040135.998, Lógico: 140, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:57 2025] Status - Local: 1748040135.998, Lógico: 141, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:58 2025] Status - Local: 1748040135.998, Lógico: 142, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:43:59 2025] Status - Local: 1748040135.998, Lógico: 143, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:44:00 2025] Coordenador sincronizando com servers: {'5555', '5556'}
+[Fri May 23 22:44:00 2025] Status - Local: 1748040135.998, Lógico: 144, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:44:01 2025] Status - Local: 1748040135.998, Lógico: 145, Coordenador rank: 1, É coordenador: True, Servers conhecidos: {'5555', '5556'}
+[Fri May 23 22:44:02 2025] Sem resposta do server 5556 por time out
+[Fri May 23 22:44:02 2025] Tempo estimado calculado: 1748040135.9984105
+[Fri May 23 22:44:02 2025] Tempo interno ajustado 0.0, agora 1748040135.9984105

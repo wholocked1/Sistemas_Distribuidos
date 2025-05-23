@@ -15,5 +15,17 @@
     "tipo": "postar",
     "origem": "cliente1",
     "mensagem": "babyreborn2"
+  },
+  {
+    "tipo": "postar",
+    "origem": "cliente1",
+    "destino": "",
+    "mensagem": "ççççççç"
+  },
+  {
+    "tipo": "postar",
+    "origem": "cliente1",
+    "destino": "",
+    "mensagem": "aaaa"
   }
 ]
