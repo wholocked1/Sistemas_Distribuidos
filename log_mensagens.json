@@ -44,5 +44,16 @@
     "tipo": "postar",
     "origem": "clienteJS",
     "mensagem": "ja"
+  },
+  {
+    "tipo": "enviar",
+    "origem": "cliente2",
+    "destino": "cliente1",
+    "mensagem": "aaaaaa"
+  },
+  {
+    "tipo": "postar",
+    "origem": "cliente2",
+    "mensagem": "aaaa"
   }
 ]

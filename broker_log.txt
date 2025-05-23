@@ -229,3 +229,9 @@
 [Fri May 23 23:20:57 2025] Pedido de conex√£o: 5555
 [Fri May 23 23:20:57 2025] Rank 1 para o Server 5555
 [Fri May 23 23:20:57 2025] Server list publicado: ['5555']
+[Fri May 23 20:40:18 2025] Broker iniciado
+[Fri May 23 20:40:18 2025] PUB socket em tcp://*:5558
+[Fri May 23 20:40:18 2025] REP socket em tcp://*:5559
+[Fri May 23 20:40:42 2025] Pedido de conex„o: 5555
+[Fri May 23 20:40:42 2025] Rank 1 para o Server 5555
+[Fri May 23 20:40:42 2025] Server list publicado: ['5555']
