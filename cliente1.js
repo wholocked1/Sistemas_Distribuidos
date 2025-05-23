@@ -3,7 +3,7 @@ const msgpack = require('@msgpack/msgpack');
 const readline = require('readline');
 
 const HOST = '127.0.0.1';
-const PORT = 65432;
+const PORT = 5560;
 const NOME_CLIENTE = "clienteJS"; // Altere se for cliente2
 
 const rl = readline.createInterface({

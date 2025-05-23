@@ -2,15 +2,16 @@ import java.io.*;
 import java.net.*;
 import java.util.*;
 import org.msgpack.core.MessagePack;
+import org.msgpack.core.MessagePacker;
 import org.msgpack.core.MessageUnpacker;
 
-public class Client {
+public class cliente2 {
     private static final String NOME_CLIENTE = "clienteJava"; 
     private static Socket socket;
 
     public static void main(String[] args) {
         String HOST = "127.0.0.1";
-        int PORT = 65432;
+        int PORT = 5560;
 
         try {
             socket = new Socket(HOST, PORT);
@@ -19,7 +20,7 @@ public class Client {
             System.err.println("Error connecting to server: " + e.getMessage());
         } finally {
             try {
-                if (socket != null) {
+                if (socket != null && !socket.isClosed()) {
                     socket.close();
                 }
             } catch (IOException e) {
@@ -46,7 +47,7 @@ public class Client {
                     publicarMensagem(scanner);
                     break;
                 case "2":
-                    vizualizarPostagens(scanner);
+                    visualizarPostagens(scanner);
                     break;
                 case "3":
                     enviarMensagemPrivada(scanner);
@@ -55,9 +56,11 @@ public class Client {
                     visualizarMensagens(scanner);
                     break;
                 case "0":
+                    System.out.println("Encerrando... Adeus!");
                     return;
                 default:
                     System.out.println("Opção inválida.");
+                    break;
             }
         }
     }
@@ -81,8 +84,8 @@ public class Client {
         }
     }
 
-    private static void vizualizarPostagens(Scanner scanner) {
-        System.out.print("Digite com quem deseja vizualizar as postagens (ex: cliente1): ");
+    private static void visualizarPostagens(Scanner scanner) {
+        System.out.print("Digite com quem deseja visualizar as postagens (ex: cliente1): ");
         String origem = scanner.nextLine();
 
         Map<String, Object> payload = new HashMap<>();
@@ -92,7 +95,7 @@ public class Client {
         try {
             sendMessage(payload);
             Map<String, Object> dados = receiveMessage();
-            List<Map<String, Object>> mensagens = (List<Map<String, Object>>) dados.get("mensagens");
+            List<Map<String, Object>> mensagens = castToListOfMap(dados.get("mensagens"));
 
             if (mensagens == null || mensagens.isEmpty()) {
                 System.out.println("Nenhuma mensagem recebida.");
@@ -133,7 +136,7 @@ public class Client {
     }
 
     private static void visualizarMensagens(Scanner scanner) {
-        System.out.print("Digite com quem deseja vizualizar a conversa (ex: cliente2): ");
+        System.out.print("Digite com quem deseja visualizar a conversa (ex: cliente2): ");
         String origem = scanner.nextLine();
 
         Map<String, Object> payload = new HashMap<>();
@@ -144,7 +147,7 @@ public class Client {
         try {
             sendMessage(payload);
             Map<String, Object> dados = receiveMessage();
-            List<Map<String, Object>> mensagens = (List<Map<String, Object>>) dados.get("mensagens");
+            List<Map<String, Object>> mensagens = castToListOfMap(dados.get("mensagens"));
 
             if (mensagens == null || mensagens.isEmpty()) {
                 System.out.println("Nenhuma mensagem recebida.");
@@ -164,32 +167,130 @@ public class Client {
     }
 
     private static void sendMessage(Map<String, Object> payload) throws IOException {
+        OutputStream outputStream = socket.getOutputStream();
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-        MessagePack.newDefaultPacker(byteArrayOutputStream).packMapHeader(payload.size());
+
+        MessagePacker packer = MessagePack.newDefaultPacker(byteArrayOutputStream);
+        packer.packMapHeader(payload.size());
+
         for (Map.Entry<String, Object> entry : payload.entrySet()) {
-            MessagePack.newDefaultPacker(byteArrayOutputStream).packString(entry.getKey());
-            MessagePack.newDefaultPacker(byteArrayOutputStream).packString(entry.getValue().toString());
+            packer.packString(entry.getKey());
+            Object value = entry.getValue();
+            if (value == null) {
+                packer.packNil();
+            } else if (value instanceof String) {
+                packer.packString((String) value);
+            } else if (value instanceof Integer) {
+                packer.packInt((Integer) value);
+            } else if (value instanceof Boolean) {
+                packer.packBoolean((Boolean) value);
+            } else {
+                packer.packString(value.toString());
+            }
         }
-        socket.getOutputStream().write(byteArrayOutputStream.toByteArray());
-        socket.getOutputStream().flush();
+
+        packer.close();
+
+        byte[] data = byteArrayOutputStream.toByteArray();
+
+        // Send length prefix for framing
+        DataOutputStream dos = new DataOutputStream(outputStream);
+        dos.writeInt(data.length);
+        dos.write(data);
+        dos.flush();
     }
 
     private static Map<String, Object> receiveMessage() throws IOException {
         InputStream inputStream = socket.getInputStream();
-        byte[] buffer = new byte[4096];
-        int bytesRead = inputStream.read(buffer);
-        if (bytesRead == -1) {
-            throw new IOException("Nenhuma resposta do servidor.");
+        DataInputStream dis = new DataInputStream(inputStream);
+
+        // Read length prefix
+        int length = dis.readInt();
+        byte[] buffer = new byte[length];
+
+        int read = 0;
+        while (read < length) {
+            int r = dis.read(buffer, read, length - read);
+            if (r == -1) {
+                throw new IOException("Stream closed prematurely");
+            }
+            read += r;
         }
 
-        MessageUnpacker unpacker = MessagePack.newDefaultUnpacker(buffer, 0, bytesRead);
+        MessageUnpacker unpacker = MessagePack.newDefaultUnpacker(buffer);
+
         Map<String, Object> response = new HashMap<>();
         int mapSize = unpacker.unpackMapHeader();
+
         for (int i = 0; i < mapSize; i++) {
             String key = unpacker.unpackString();
-            String value = unpacker.unpackString();
+            // Try to unpack value dynamically by type
+            Object value = unpackDynamic(unpacker);
             response.put(key, value);
         }
+
+        unpacker.close();
+
         return response;
     }
+
+    private static Object unpackDynamic(MessageUnpacker unpacker) throws IOException {
+        switch (unpacker.getNextFormat().getValueType()) {
+            case NIL:
+                unpacker.unpackNil();
+                return null;
+            case BOOLEAN:
+                return unpacker.unpackBoolean();
+            case INTEGER:
+                return unpacker.unpackInt();
+            case FLOAT:
+                return unpacker.unpackDouble();
+            case STRING:
+                return unpacker.unpackString();
+            case ARRAY:
+                int arraySize = unpacker.unpackArrayHeader();
+                List<Object> list = new ArrayList<>(arraySize);
+                for (int i = 0; i < arraySize; i++) {
+                    list.add(unpackDynamic(unpacker));
+                }
+                return list;
+            case MAP:
+                int mapSize = unpacker.unpackMapHeader();
+                Map<String, Object> map = new HashMap<>();
+                for (int i = 0; i < mapSize; i++) {
+                    String key = unpacker.unpackString();
+                    Object value = unpackDynamic(unpacker);
+                    map.put(key, value);
+                }
+                return map;
+            case BINARY:
+                int len = unpacker.unpackBinaryHeader();
+                byte[] bytes = new byte[len];
+                unpacker.readPayload(bytes);
+                return bytes;
+            case EXTENSION:
+                // ignore extension types for now
+                unpacker.skipValue();
+                return null;
+            default:
+                unpacker.skipValue();
+                return null;
+        }
+    }
+
+    @SuppressWarnings("unchecked")
+    private static List<Map<String, Object>> castToListOfMap(Object obj) {
+        if (obj instanceof List<?>) {
+            List<?> rawList = (List<?>) obj;
+            if (!rawList.isEmpty() && rawList.get(0) instanceof Map<?, ?>) {
+                List<Map<String, Object>> listOfMap = new ArrayList<>();
+                for (Object item : rawList) {
+                    listOfMap.add((Map<String, Object>) item);
+                }
+                return listOfMap;
+            }
+        }
+        return null;
+    }
 }
+

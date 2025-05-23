@@ -39,5 +39,10 @@
     "origem": "cliente1",
     "destino": "",
     "mensagem": "ççççççççççççççççç"
+  },
+  {
+    "tipo": "postar",
+    "origem": "clienteJS",
+    "mensagem": "ja"
   }
 ]
