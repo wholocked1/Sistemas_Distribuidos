@@ -14,7 +14,7 @@ public class cliente2 {
         Scanner sc = new Scanner(System.in);
 
         // Pergunta a porta
-        System.out.print("Digite a porta do servidor: ");
+        System.out.print("Digite a porta do servidor (Ex: 6555): ");
         int porta;
         try {
             porta = Integer.parseInt(sc.nextLine().trim());
