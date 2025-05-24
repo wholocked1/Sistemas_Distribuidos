@@ -11,7 +11,7 @@ mensagens = []  # List to store messages
 LOG_PATH = "log_mensagens.json"  # Path for logging messages
 
 # Get the port number from user input
-port_input = input('Porta do servidor (ex: 65432): ').strip()
+port_input = input('Porta do servidor (ex: 5555): ').strip()
 try:
     PORT = int(port_input)
 except ValueError:
@@ -33,6 +33,7 @@ serversConhecidos = set()
 
 # Function to log messages
 def log(msg):
+    global log_filename
     timestamp = time.asctime()
     line = f"[{timestamp}] {msg}"
     print(line)
@@ -43,7 +44,13 @@ def log(msg):
 def carregar_log():
     if os.path.exists(LOG_PATH):
         with open(LOG_PATH, "r", encoding="utf-8") as f:
-            return json.load(f)
+            content = f.read().strip()
+            if content:
+                try:
+                    return json.loads(content)
+                except json.JSONDecodeError:
+                    print("⚠️ Arquivo de log estava corrompido. Iniciando com lista vazia.")
+                    return []
     return []
 
 # Save message to log
@@ -53,7 +60,7 @@ def salvar_em_log(mensagem):
     with open(LOG_PATH, "w", encoding="utf-8") as f:
         json.dump(todas_mensagens, f, ensure_ascii=False, indent=2)
 
-# Handle client connections (normal socket TCP server part)
+# Handle client connections
 def handle_client(conn, addr):
     print(f"[NOVA CONEXÃO] {addr} conectado.")
     while True:
@@ -62,20 +69,30 @@ def handle_client(conn, addr):
             if not data:
                 break
             msg = msgpack.unpackb(data, raw=False)
-            # Message processing
+
             if msg["tipo"] == "enviar" or msg["tipo"] == "postar":
-                with coord_lock:  # Lock for thread safety
+                with coord_lock:
                     mensagens.append(msg)
                     salvar_em_log(msg)
-                conn.send(msgpack.packb({"status": "mensagem enviada!"}, use_bin_type=True))
+                resposta = {"status": "mensagem enviada!"}
+                print(f"[DEBUG Python] Enviando: {resposta}")
+                print(f"[DEBUG Python] Bytes: {list(msgpack.packb(resposta, use_bin_type=True))}")
+                conn.sendall(msgpack.packb(resposta, use_bin_type=True))
+            
             elif msg["tipo"] == "receber":
-                with coord_lock:  # Lock for thread safety
-                    recebidas = [m for m in mensagens if m["destino"] == msg["destino"] and m["origem"] == msg["origem"]]
-                conn.send(msgpack.packb({"mensagens": recebidas}, use_bin_type=True))
+                origem = msg.get("origem", "")
+                destino = msg.get("destino", "")
+                with coord_lock:
+                    recebidas = [m for m in mensagens if m.get("destino") == destino]
+                resposta = {"mensagens": recebidas}
+                conn.sendall(msgpack.packb(resposta, use_bin_type=True))
+
             elif msg["tipo"] == "vizualizar":
-                with coord_lock:  # Lock for thread safety
-                    postagens = [m for m in mensagens if m["tipo"] == "postar" and m["origem"] == msg["origem"]]
-                conn.send(msgpack.packb({"mensagens": postagens}, use_bin_type=True))
+                with coord_lock:
+                    postagens = [m for m in mensagens if m.get("tipo") == "postar"]
+                resposta = {"mensagens": postagens}
+                conn.sendall(msgpack.packb(resposta, use_bin_type=True))
+
         except Exception as e:
             print(f"[ERRO] {e}")
             break
@@ -87,162 +104,27 @@ def start_message_server():
     mensagens = carregar_log()
 
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server.bind((HOST, 5560))  # Use the user-defined port
+    server.bind((HOST, PORT + 1000))  # Porta para clientes
     server.listen()
-    print("[SERVIDOR] Iniciado em", (HOST, 5560))
+    print("[SERVIDOR] Iniciado em", (HOST, PORT + 1000))
 
     while True:
         conn, addr = server.accept()
         thread = threading.Thread(target=handle_client, args=(conn, addr), daemon=True)
         thread.start()
 
-# Time synchronization functions
-def sincCoordenador():
-    global local_clock, logical_clock, coordenador, coord_thread
-    log("Iniciando sincronização do coordenador")
+# Dummy implementation to avoid NameError during testing
+def mandaHora():
     while True:
         time.sleep(10)
-        with coord_lock:
-            if not coordenador:
-                log("Saindo da sincronização porque servidor não é mais coordenador")
-                break
-        if not serversConhecidos:
-            log("Nenhum servidor conhecido para sincronizar")
-            continue
-        log(f"Coordenador sincronizando com servers: {serversConhecidos}")
-        times = []
-        for server_port in serversConhecidos:
-            try:
-                if int(server_port) == PORT:
-                    times.append(local_clock)
-                    continue
-                req_socket = context.socket(zmq.REQ)
-                req_socket.setsockopt(zmq.LINGER, 0)
-                req_socket.connect(f"tcp://localhost:{server_port}")
-                req_socket.send_string("TIME_REQUEST")
-                if req_socket.poll(2000) & zmq.POLLIN:
-                    reply = req_socket.recv_string()
-                    server_time = float(reply)
-                    log(f"Horário recebido {server_time} do servidor {server_port}")
-                    times.append(server_time)
-                else:
-                    log(f"Sem resposta do server {server_port} por time out")
-                req_socket.close()
-            except Exception as e:
-                log(f"Erro no request {server_port}: {e}")
-
-        average_time = sum(times) / len(times) if times else local_clock
-        log(f"Tempo estimado calculado: {average_time}")
-
-        for server_port in serversConhecidos:
-            try:
-                if int(server_port) == PORT:
-                    diff = average_time - local_clock
-                    local_clock += diff
-                    log(f"Tempo interno ajustado {diff}, agora {local_clock}")
-                    continue
-                req_socket = context.socket(zmq.REQ)
-                req_socket.setsockopt(zmq.LINGER, 0)
-                req_socket.connect(f"tcp://localhost:{server_port}")
-                req_socket.send_string(f"ADJUST_TIME {average_time}")
-                if req_socket.poll(2000) & zmq.POLLIN:
-                    ack = req_socket.recv_string()
-                    log(f"Ajustando {server_port}: {ack}")
-                else:
-                    log(f"Sem ACK em {server_port} após ADJUST_TIME")
-                req_socket.close()
-            except Exception as e:
-                log(f"Erro ao ajustar {server_port}: {e}")
-
-        logical_clock += 1
-        log(f"Incremento do relógio lógico {logical_clock}")
-
-def eleicao():
-    global coordenador, rankCoordenador, rank, coord_thread
-    log("Eleição iniciada. Encontrando novo coordenador")
-    antigoCoordenadorRank = rankCoordenador
-    candidates = [int(s) for s in serversConhecidos if s.isdigit() and int(s) != antigoCoordenadorRank]
-    log(f"Candidatos a eleição: {candidates}")
-    if not candidates:
-        log("Sem candidatos para eleição")
-        return
-    novoCoordenadorRank = min(candidates)
-    log(f"Resultado da eleição: Menor Rank = {novoCoordenadorRank}")
-
-    with coord_lock:
-        eraCoordenador = coordenador
-        rankCoordenador = novoCoordenadorRank
-        coordenador = (rank == rankCoordenador)
-
-        if coordenador and not eraCoordenador:
-            log("Sou o novo coordenador! Iniciando funções de coordenador...")
-            if coord_thread is None or not coord_thread.is_alive():
-                coord_thread = threading.Thread(target=sincCoordenador, daemon=True)
-                coord_thread.start()
-        elif not coordenador and eraCoordenador:
-            log("Não sou mais coordenador, parando funções de coordenador.")
-        else:
-            log(f"Coordenador atual é rank {rankCoordenador}")
 
 def verificaCoordenador():
-    global coordenador, rankCoordenador, rank
     while True:
-        time.sleep(5)
-        with coord_lock:
-            coordenadorAtual = rankCoordenador
-        if coordenadorAtual == rank:
-            continue
-        if coordenadorAtual not in (int(s) for s in serversConhecidos if s.isdigit()):
-            log(f"Coordenador rank {coordenadorAtual} fora da lista. Iniciando eleição.")
-            eleicao()
-            continue
+        time.sleep(10)
 
-        coord_str = str(coordenadorAtual)
-        try:
-            ping_socket = context.socket(zmq.REQ)
-            ping_socket.setsockopt(zmq.LINGER, 0)
-            ping_socket.connect(f"tcp://localhost:{coord_str}")
-            ping_socket.send_string("TIME_REQUEST")
-            if ping_socket.poll(2000) & zmq.POLLIN:
-                _ = ping_socket.recv_string()
-                log(f"Coordenador (rank {coordenadorAtual}) está vivo.")
-            else:
-                log(f"Coordenador (rank {coordenadorAtual}) não responde. Iniciando eleição.")
-                eleicao()
-            ping_socket.close()
-        except Exception as e:
-            log(f"Erro ao dar ping no coordenador (rank {coordenadorAtual}): {e}")
-            eleicao()
-
-def mandaHora():
-    global local_clock
+def sincCoordenador():
     while True:
-        try:
-            message = rep.recv_string()
-            log(f"Mensagem recebida: {message}")
-            if message == "TIME_REQUEST":
-                rep.send_string(str(local_clock))
-                log(f"Enviando tempo local {local_clock}")
-            elif message.startswith("ADJUST_TIME"):
-                parts = message.split()
-                if len(parts) == 2:
-                    try:
-                        avg_time = float(parts[1])
-                        diff = avg_time - local_clock
-                        local_clock += diff
-                        rep.send_string("ACK")
-                        log(f"Relógio ajustado em {diff}, novo valor: {local_clock}")
-                    except ValueError:
-                        rep.send_string("ERR_INVALID_TIME")
-                        log("Erro no valor para ajuste de tempo")
-                else:
-                    rep.send_string("ERR_INVALID_COMMAND")
-                    log("Comando ADJUST_TIME inválido")
-            else:
-                rep.send_string("ERR_UNKNOWN_COMMAND")
-                log(f"Comando desconhecido: {message}")
-        except zmq.ZMQError:
-            break
+        time.sleep(10)
 
 # Initialize ZeroMQ context and sockets
 context = zmq.Context()

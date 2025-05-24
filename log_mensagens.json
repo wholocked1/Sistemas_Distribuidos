@@ -1,59 +1,38 @@
 [
   {
-    "tipo": "enviar",
-    "origem": "cliente1",
-    "destino": "cliente2",
-    "mensagem": "sou o js"
-  },
-  {
-    "tipo": "enviar",
-    "origem": "cliente2",
-    "destino": "cliente1",
-    "mensagem": "eu sou o python"
-  },
-  {
     "tipo": "postar",
-    "origem": "cliente1",
-    "mensagem": "babyreborn2"
-  },
-  {
-    "tipo": "postar",
-    "origem": "cliente1",
+    "origem": "nnnnnn",
     "destino": "",
-    "mensagem": "ççççççç"
+    "mensagem": "oaoaoaoao"
   },
   {
     "tipo": "postar",
-    "origem": "cliente1",
+    "origem": "Josias",
     "destino": "",
-    "mensagem": "aaaa"
+    "mensagem": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
   },
   {
     "tipo": "postar",
-    "origem": "cliente1",
+    "origem": "Kermit",
     "destino": "",
-    "mensagem": "kkkkkkkkkkkkkk"
-  },
-  {
-    "tipo": "postar",
-    "origem": "cliente1",
-    "destino": "",
-    "mensagem": "ççççççççççççççççç"
-  },
-  {
-    "tipo": "postar",
-    "origem": "clienteJS",
-    "mensagem": "ja"
+    "mensagem": "imkermit the forg"
   },
   {
     "tipo": "enviar",
-    "origem": "cliente2",
-    "destino": "cliente1",
-    "mensagem": "aaaaaa"
+    "origem": "Pdiddy",
+    "destino": "Kermit",
+    "mensagem": "come to my party"
+  },
+  {
+    "tipo": "enviar",
+    "origem": "Kermit",
+    "destino": "Pdiddy",
+    "mensagem": "No!"
   },
   {
     "tipo": "postar",
-    "origem": "cliente2",
-    "mensagem": "aaaa"
+    "origem": "Pdiddy",
+    "destino": "",
+    "mensagem": "baby oil"
   }
 ]
