@@ -22,5 +22,17 @@
     "origem": "Pdiddy",
     "destino": "Kermit",
     "mensagem": "come to my party"
+  },
+  {
+    "tipo": "enviar",
+    "origem": "Kermit",
+    "destino": "Pdiddy",
+    "mensagem": "No!"
+  },
+  {
+    "tipo": "postar",
+    "origem": "Pdiddy",
+    "destino": "",
+    "mensagem": "baby oil"
   }
 ]

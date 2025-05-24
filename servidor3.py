@@ -11,7 +11,7 @@ mensagens = []  # List to store messages
 LOG_PATH = "log_mensagens.json"  # Path for logging messages
 
 # Get the port number from user input
-port_input = input('Porta do servidor (ex: 65432): ').strip()
+port_input = input('Porta do servidor (ex: 5555): ').strip()
 try:
     PORT = int(port_input)
 except ValueError:
@@ -78,16 +78,18 @@ def handle_client(conn, addr):
                 print(f"[DEBUG Python] Enviando: {resposta}")
                 print(f"[DEBUG Python] Bytes: {list(msgpack.packb(resposta, use_bin_type=True))}")
                 conn.sendall(msgpack.packb(resposta, use_bin_type=True))
-
+            
             elif msg["tipo"] == "receber":
+                origem = msg.get("origem", "")
+                destino = msg.get("destino", "")
                 with coord_lock:
-                    recebidas = [m for m in mensagens if m["destino"] == msg["destino"] and m["origem"] == msg["origem"]]
+                    recebidas = [m for m in mensagens if m.get("destino") == destino]
                 resposta = {"mensagens": recebidas}
                 conn.sendall(msgpack.packb(resposta, use_bin_type=True))
 
             elif msg["tipo"] == "vizualizar":
                 with coord_lock:
-                    postagens = [m for m in mensagens if m["tipo"] == "postar" and m["origem"] == msg["origem"]]
+                    postagens = [m for m in mensagens if m.get("tipo") == "postar"]
                 resposta = {"mensagens": postagens}
                 conn.sendall(msgpack.packb(resposta, use_bin_type=True))
 
