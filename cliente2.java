@@ -7,18 +7,34 @@ import java.io.OutputStream;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class Cliente2 {
-
-    private static final String HOST = "127.0.0.1";
-    private static final int PORT = 5560;
-    private static final String NOME_CLIENTE = "cliente2";
+public class cliente2 {
 
     public static void main(String[] args) {
-        try (Socket socket = new Socket(HOST, PORT)) {
-            System.out.println("[INFO] Conectado ao servidor " + HOST + ":" + PORT);
+        System.setProperty("file.encoding", "UTF-8");
+        Scanner sc = new Scanner(System.in);
+
+        // Pergunta a porta
+        System.out.print("Digite a porta do servidor: ");
+        int porta;
+        try {
+            porta = Integer.parseInt(sc.nextLine().trim());
+            if (porta < 1 || porta > 65535) {
+                System.err.println("[ERRO] Porta inválida.");
+                return;
+            }
+        } catch (NumberFormatException e) {
+            System.err.println("[ERRO] Entrada inválida para a porta.");
+            return;
+        }
+
+        // Pergunta o nome do cliente
+        System.out.print("Digite seu nome de usuário: ");
+        String nomeCliente = sc.nextLine().trim();
+
+        try (Socket socket = new Socket("127.0.0.1", porta)) {
+            System.out.println("[INFO] Conectado ao servidor 127.0.0.1:" + porta + " como " + nomeCliente);
             OutputStream out = socket.getOutputStream();
             InputStream in = socket.getInputStream();
-            Scanner sc = new Scanner(System.in);
 
             while (true) {
                 System.out.println("\nMenu:");
@@ -32,16 +48,16 @@ public class Cliente2 {
 
                 switch (opcao) {
                     case "1":
-                        receberMensagens(out, in);
+                        receberMensagens(out, in, nomeCliente);
                         break;
                     case "2":
-                        enviarMensagem(sc, out, in);
+                        enviarMensagem(sc, out, in, nomeCliente);
                         break;
                     case "3":
-                        publicarPostagem(sc, out, in);
+                        publicarPostagem(sc, out, in, nomeCliente);
                         break;
                     case "4":
-                        visualizarPostagens(out, in);
+                        visualizarPostagens(out, in, nomeCliente);
                         break;
                     case "0":
                         System.out.println("[INFO] Encerrando cliente.");
@@ -56,13 +72,13 @@ public class Cliente2 {
         }
     }
 
-    private static void receberMensagens(OutputStream out, InputStream in) throws Exception {
+    private static void receberMensagens(OutputStream out, InputStream in, String nome) throws Exception {
         MessageBufferPacker packer = MessagePack.newDefaultBufferPacker();
         packer.packMapHeader(2);
         packer.packString("tipo");
         packer.packString("receber");
         packer.packString("destino");
-        packer.packString(NOME_CLIENTE);
+        packer.packString(nome);
         packer.close();
 
         out.write(packer.toByteArray());
@@ -74,7 +90,7 @@ public class Cliente2 {
         }
     }
 
-    private static void enviarMensagem(Scanner sc, OutputStream out, InputStream in) throws Exception {
+    private static void enviarMensagem(Scanner sc, OutputStream out, InputStream in, String nome) throws Exception {
         System.out.print("Destino: ");
         String destino = sc.nextLine();
         System.out.print("Mensagem: ");
@@ -85,7 +101,7 @@ public class Cliente2 {
         packer.packString("tipo");
         packer.packString("enviar");
         packer.packString("origem");
-        packer.packString(NOME_CLIENTE);
+        packer.packString(nome);
         packer.packString("destino");
         packer.packString(destino);
         packer.packString("mensagem");
@@ -101,16 +117,18 @@ public class Cliente2 {
         }
     }
 
-    private static void publicarPostagem(Scanner sc, OutputStream out, InputStream in) throws Exception {
+    private static void publicarPostagem(Scanner sc, OutputStream out, InputStream in, String nome) throws Exception {
         System.out.print("Digite o conteúdo da postagem: ");
         String conteudo = sc.nextLine();
 
         MessageBufferPacker packer = MessagePack.newDefaultBufferPacker();
-        packer.packMapHeader(3);
+        packer.packMapHeader(4);
         packer.packString("tipo");
         packer.packString("postar");
         packer.packString("origem");
-        packer.packString(NOME_CLIENTE);
+        packer.packString(nome);
+        packer.packString("destino");
+        packer.packString("");
         packer.packString("mensagem");
         packer.packString(conteudo);
         packer.close();
@@ -124,13 +142,13 @@ public class Cliente2 {
         }
     }
 
-    private static void visualizarPostagens(OutputStream out, InputStream in) throws Exception {
+    private static void visualizarPostagens(OutputStream out, InputStream in, String nome) throws Exception {
         MessageBufferPacker packer = MessagePack.newDefaultBufferPacker();
         packer.packMapHeader(2);
         packer.packString("tipo");
         packer.packString("vizualizar");
         packer.packString("origem");
-        packer.packString(NOME_CLIENTE);
+        packer.packString(nome);
         packer.close();
 
         out.write(packer.toByteArray());
@@ -177,7 +195,22 @@ public class Cliente2 {
     }
 
     private static void exibirRespostaSimples(byte[] buffer, int read) throws Exception {
+        System.out.println("[DEBUG] Bytes recebidos:");
+        for (int i = 0; i < read; i++) {
+            System.out.printf("%02x ", buffer[i]);
+        }
+        System.out.println();
         MessageUnpacker unpacker = MessagePack.newDefaultUnpacker(buffer, 0, read);
+
+                if (!unpacker.hasNext()) {
+            System.out.println("[ERRO] Nenhum dado recebido do servidor.");
+            return;
+        }
+
+        if (unpacker.getNextFormat().getValueType() != org.msgpack.value.ValueType.MAP) {
+            System.out.println("[ERRO] Resposta inesperada do servidor (não é MAP).");
+            return;
+        }
         int mapSize = unpacker.unpackMapHeader();
         for (int i = 0; i < mapSize; i++) {
             String chave = unpacker.unpackString();
