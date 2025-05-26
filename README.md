@@ -19,14 +19,14 @@ python broker.py
 <br>
 
 ## Servers:
-Coloque em três terminais diferentes:
+Suba um servidor (o servidor 3 contempla já todas as integrações com postagens e troca de mensagens):
 
 ```
 python server3.py
 ```
 <br>
 
-Depois insira a porta desejada, exemplo:
+Depois insira a porta desejada (sugerimos fortemente abrir na porta 5555), exemplo:
 ```
 Porta do servidor (ex: 65432): 5555
 ```
@@ -34,26 +34,18 @@ Porta do servidor (ex: 65432): 5555
 
 ## Clientes: <br>
 
-### Python
-
-```
-python cliente.py
-```
-Depois insira o nome do cliente, exemplo:
-```
-nome do cliente: cliente1
-```
 ### JavaScript
 ```
 node cliente1.js
 ```
-Não precisa incerir um nome!
+Inserir o nome do cliente
 ### Java
 ```
 javac -cp ".;msgpack-core-0.9.0.jar" cliente2.java
 java -cp ".;msgpack-core-0.9.0.jar" Cliente2
 ```
-Não precisa incerir um nome!
+Inserir o nome do cliente
+Inserir a porta 6555 para comunicação
 
 
 Git do Leo: https://gitlab.com/laferreira/fei/cc7261/-/blob/main/aulas/projeto.md
