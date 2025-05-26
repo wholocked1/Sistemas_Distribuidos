@@ -40,11 +40,20 @@ node cliente1.js
 ```
 Inserir o nome do cliente
 ### Java
+
+#### Windows
 ```
 javac -cp ".;msgpack-core-0.9.0.jar" cliente2.java
-java -cp ".;msgpack-core-0.9.0.jar" Cliente2
+java -cp ".;msgpack-core-0.9.0.jar" cliente2
 ```
-Inserir o nome do cliente
+
+#### Linux
+
+```
+javac -cp ".:msgpack-core-0.9.0.jar" Cliente2.java
+java -cp ".:msgpack-core-0.9.0.jar" Cliente2
+```
+Inserir o nome do cliente <br>
 Inserir a porta 6555 para comunicação
 
 
